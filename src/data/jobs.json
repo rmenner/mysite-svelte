@@ -1,0 +1,74 @@
+[
+  {
+    "company": "Trevetts/Creative+",
+    "location": "Columbia, SC",
+    "title": "Frontend Developer",
+    "start": "Feb 2019",
+    "end": "Current",
+    "desc": "<p>I got the opportunity to create a development workflow from scratch. Selecting everything from server environments to frameworks. This allowed us to automate the deployment process and watch for bugs in production. We now work with these tools: Forge, Laravel, Vuejs, SCSS, Tailwind, Livewire, Nova, Statamic, and Wordpress.</p> <p>Working with the design team to get their vision on the page. Using all the tools at my disposal to create a fast enjoyable experience for the end user.</p> <ul> <li>Build fast and responsive frontend code</li> <li>Code and maintain backend systems</li> <li>Create server environments and development pipelines</li> <li>Provide regular maintenance</li> <li>Design and prototype UX/UI</li> </ul>"
+  },
+  {
+    "company": "LoudDoor",
+    "location": "Columbia, SC",
+    "title": "Full Stack Developer & Designer",
+    "start": "Sep 2017",
+    "end": "Jan 2019",
+    "desc": "<p>I designed and developed anything from advertising to web apps. Managing project creative direction all the way to the final product. Ensuring that every detail of the user experience is tailored to exceed the target audience expectations. The tech stack I used consisted of Laravel, VUE.js, and SASS.</p> <ul> <li>Design and develop responsive web solutions</li> <li>Test, analyze, and improve the user experience</li> <li>Create high converting advertising media</li> <li>Maintain and improve existing web apps</li> </ul>"
+  },
+  {
+    "company": "Muscle & Strength",
+    "location": "Columbia, SC",
+    "title": "UI/UX Designer & Developer",
+    "start": "Apr 2014",
+    "end": "Sep 2017",
+    "desc": "<p>Hired specifically by M&S to redesign their entire website making it completely responsive. This project included designing and coding everything from the checkout system to the way articles look. As the sole developer on this project I was directly responsible for site design and developing frontend code. This project was a gigantic undertaking consisting of 30+ page templates and thousands of pages of content and products that needed to be either re-designed or newly created to meet specific demands.</p> <ul> <li>Designed responsive page templates and marketing pages with Adobe Illustrator or Sketch.</li> <li>Code responsive prototypes of designs in CodePen with static data.</li> <li>Implement prototype code into Magento or Drupal CMS.</li> <li>Assist store, content, and marketing teams with any custom CSS design work to format forms or special landing pages.</li> <li>Design solutions to any UX issues reported by customer service.</li> <li>Created custom graphics and icons using Photoshop and Illustrator.</li> <li>Created SASS styles and jQuery functions to customize the responsive user experience.</li> </ul>"
+  },
+  {
+    "company": "LeeLocal",
+    "location": "Davenport, IA",
+    "title": "Frontend/Backend Web Developer",
+    "start": "Jul 2012",
+    "end": "Apr 2014",
+    "desc": "<p>I was hired on to help with front end website design and CSS development. I learned WordPress CMS development on the job and quickly became the “custom guy” and assisted other team members with any technical difficulties.</p> <ul> <li>Custom WordPress templates and themes.</li> <li>Setup a system for staging and deploying custom sites via Beanstalk and Rackspace.</li> <li>Worked directly with clients to design them a website that meets their needs.</li> <li>Trained clients how to update and manage their custom website.</li> </ul>"
+  },
+  {
+    "company": "Office Max",
+    "location": "San Antonio, TX - Moline, IL",
+    "title": "Impress Printing Associate",
+    "start": "Oct 2011",
+    "end": "Jun 2012",
+    "desc": "Worked with customers to print anything they needed. Also designed anything they may need from wedding invites to business cards."
+  },
+  {
+    "company": "CollegePlus!",
+    "location": "San Antonio, TX",
+    "title": "Lead Designer",
+    "start": "Jul 2010",
+    "end": "Sep 2011",
+    "desc": "<p>Designed for the Marketing and Development departments. This included everything from landing pages to million-dollar marketing campaigns.</p> <ul> <li>Worked with development to create high converting landing pages.</li> <li>Coded and designed marketing emails.</li> <li>Created marketing videos including setting up the shoot, filming, and producing.</li> <li>Assisted in basic office IT support.</li> </ul>"
+  },
+  {
+    "company": "Personal Marketing Research",
+    "location": "Davenport, IA",
+    "title": "Project Assistant",
+    "start": "Jan 2009",
+    "end": "Jan 2010",
+    "desc": "Manage survey data, quality control and call center reports. Development and Maintenance of company website. Managed all office equipment."
+  },
+  {
+    "company": "Stegmaier Photography",
+    "location": "Davenport, IA",
+    "title": "Lead Photographer",
+    "start": "Jan 2006",
+    "end": "Jan 2010",
+    "desc": "Advanced photo editing/retouching. Video editing. Solo wedding/event photography. Custom albums."
+  },
+  {
+    "company": "Moline High School",
+    "location": "Moline, IL",
+    "title": "Media Assistant",
+    "start": "Jan 2002",
+    "end": "Jan 2006",
+    "desc": "<ul> <li>Newspaper – Editor-in-chief/Head artist – 2 years.</li> <li>DVD productions for drama department.</li> <li>Taught classes for \"Teen Tech Week\" Classes included Photoshop, iMovie, and Dreamweaver.</li> <li>Websites for numerous departments.</li> <li>Teacher’ s Aide.</li> <li>Created 'MHS TV' - video announcement network.</li> </ul>"
+  }
+]
