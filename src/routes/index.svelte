@@ -34,7 +34,7 @@ import Page from '../components/page.svelte'
         </p>
       </div>
       <div>
-        <img class="inline-block h-16 w-16 rounded-full" src="/static/images/profile.jpg" alt="">
+        <img class="inline-block h-16 w-16 rounded-full" src="/images/profile.jpg" alt="Ryan">
       </div>
     </div>
 
