@@ -22,12 +22,12 @@
   {
     "title": "Tech",
     "list": [
-      "HTML, SVG, JS",
-      "CSS/Sass/Tailwind",
-      "PHP, MySQL, Laravel",
-      "Statamic, Nova",
-      "Vue, Livewire, Alpine",
-      "Mix, Vite"
+      "HTML, CSS/Sass/Tailwind, SVG,",
+      "PHP, MySQL, JavaScript",
+      "Statamic, Nova, Wordpress",
+      "Vue, Alpine, Svelte",
+      "Laravel, Livewire",
+      "Learning Python"
     ]
   },
   {
