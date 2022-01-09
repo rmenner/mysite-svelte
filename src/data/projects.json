@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Trevetts",
+    "url": "https://trevetts.com",
+    "image": "/images/projects/trevetts.jpg",
+    "tech": "Laravel, Livewire, Alpine, Tailwind",
+    "tag": "Website"
+  },
+  {
+    "title": "Brewer Insurance",
+    "url": "https://brewerinsuranceschool.com/",
+    "image": "/images/projects/brewer-insurance.jpg",
+    "tech": "Laravel, Vue, Tailwind",
+    "tag": "Website"
+  },
+  {
+    "title": "3-column preview card",
+    "url": "https://www.frontendmentor.io/solutions/responsive-3-column-card-layout-using-flexbox-UUSd1Q5Rz",
+    "image": "/images/projects/3-column-preview-card.jpg",
+    "tech": "HTML, CSS",
+    "tag": "Challenge"
+  }
+]

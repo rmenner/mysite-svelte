@@ -20,9 +20,9 @@ $: if ($page.url.pathname) {
 
 
   <div class="md:pr-64 flex flex-col flex-1 h-full">
-    <div class="sticky top-0 flex justify-end z-10 md:hidden pl-1 pt-1 sm:pl-3 sm:pt-3 bg-gray-100 shadow">
+    <div class="sticky top-0 flex justify-end z-10 md:hidden pl-1 pt-1 sm:pl-3 sm:pt-3 bg-gray-200 shadow">
       <MobileRocket refresh={$page.url.pathname}/>
-      <button on:click={() => open = !open} type="button" class="mr-1 -mt-0.5 h-12 w-12 inline-flex items-center justify-center text-teal-700 hover:text-teal-500 focus:outline-none">
+      <button on:click={() => open = !open} type="button" class="mr-1 -mt-0.5 h-12 w-12 inline-flex items-center justify-center text-teal-600 hover:text-teal-500 focus:outline-none">
         <span class="sr-only">Open sidebar</span>
         <!-- Heroicon name: outline/menu -->
         <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
