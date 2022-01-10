@@ -16,9 +16,9 @@
     <meta property="og:description" content="{metadata.description}" />
   {/if} 
   
-  {#if metadata.image}
-    <meta property="og:image" content="{metadata.description}" />
-  {/if} 
+
+  <meta property="og:image" content="/images/og-image.jpg" />
+
 
 </svelte:head>
 

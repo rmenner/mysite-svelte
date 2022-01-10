@@ -10,8 +10,7 @@
         title: 'Resume'
       },
       title: 'Resume',
-      description: 'This my site',
-      image: 'https://svelte.dev/images/twitter-card.png',
+      description: 'My employment and tech experience.'
     }
   
   </script>

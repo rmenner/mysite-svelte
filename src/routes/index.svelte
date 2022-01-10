@@ -7,8 +7,7 @@ import Page from '../components/page.svelte'
       title: 'Design. Prototype. Build.'
     },
 		title: 'Design. Prototype. Build.',
-		description: 'My mission, to create work that is both useful and beautiful.',
-		image: 'https://svelte.dev/images/twitter-card.png',
+		description: 'My mission, to create work that is both useful and beautiful.'
 	}
 
 </script>

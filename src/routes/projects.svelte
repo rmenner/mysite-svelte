@@ -8,8 +8,7 @@
         title: 'Projects'
       },
       title: 'Projects',
-      description: 'A collection of projects',
-      image: 'https://svelte.dev/images/twitter-card.png',
+      description: 'A collection of projects I have worked on.',
     }
   
   </script>
