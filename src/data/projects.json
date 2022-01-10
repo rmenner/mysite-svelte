@@ -3,14 +3,14 @@
     "title": "Trevetts",
     "url": "https://trevetts.com",
     "image": "/images/projects/trevetts.jpg",
-    "tech": "Laravel, Livewire, Alpine, Tailwind",
+    "tech": "Laravel, Statamic, Livewire, Alpine, Tailwind",
     "tag": "Website"
   },
   {
     "title": "Brewer Insurance",
     "url": "https://brewerinsuranceschool.com/",
     "image": "/images/projects/brewer-insurance.jpg",
-    "tech": "Laravel, Vue, Tailwind",
+    "tech": "Laravel, Nova, Vue, Tailwind",
     "tag": "Website"
   },
   {
@@ -19,5 +19,33 @@
     "image": "/images/projects/3-column-preview-card.jpg",
     "tech": "HTML, CSS",
     "tag": "Challenge"
+  },
+  {
+    "title": "CKC Fire Truck Pull",
+    "url": "https://pull.curingkidscancer.org",
+    "image": "/images/projects/fire-truck-pull.jpg",
+    "tech": "Laravel, Nova, Vue, Tailwind",
+    "tag": "App"
+  },
+  {
+    "title": "Focused Living",
+    "url": "https://focusedliving.com",
+    "image": "/images/projects/focused-living.jpg",
+    "tech": "Laravel, Nova, Vue, Tailwind",
+    "tag": "Website"
+  },
+  {
+    "title": "Muscle & Strength",
+    "url": "https://www.muscleandstrength.com/",
+    "image": "/images/projects/mands.jpg",
+    "tech": "Drupal, Magento, Sass, jQuery",
+    "tag": "Website"
+  },
+  {
+    "title": "FPCS",
+    "url": "https://fpcscorp.com",
+    "image": "/images/projects/fpcs.jpg",
+    "tech": "Wordpress, Elementor",
+    "tag": "Website"
   }
 ]

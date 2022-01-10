@@ -21,7 +21,7 @@
 
       <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-2 lg:max-w-none">
         {#each projects as { title, url, image, tech, tag }, i}
-        <a href="{url}" class="flex flex-col rounded-lg shadow-lg overflow-hidden border-2 border-b-0 group">
+        <a href="{url}" target="_blank" rel="nofollow" class="flex flex-col rounded-lg shadow-lg overflow-hidden border-2 border-b-0 group">
           <div class="flex-shrink-0 relative z-0">
             <span class="text-sm font-medium text-white bg-teal-500 rounded p-2 absolute right-5 top-5 shadow z-10">
               {tag}
@@ -36,7 +36,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                   </svg>
                 </p>
-                <p class="mt-3 text-base text-gray-500">
+                <p class="mt-3 text-sm text-gray-500">
                   {tech}
                 </p>
               </div>
