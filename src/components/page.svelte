@@ -6,9 +6,8 @@
 <svelte:head>
   {#if metadata.title}
     <title>{metadata.title} | Ryan Menner</title>
-    <meta name="title" content={metadata.title} />
-    <meta property="og:title" content={metadata.title} />
-    <meta property="twitter:title" content={metadata.title} />
+    <meta name="title" content="{metadata.title} | Ryan Menner" />
+    <meta property="og:title" content="{metadata.title} | | Ryan Menner" />
   {/if}
   
   {#if metadata.description}
