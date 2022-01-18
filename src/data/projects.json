@@ -28,6 +28,13 @@
     "tag": "App"
   },
   {
+    "title": "FAQ accordion card",
+    "url": "https://www.frontendmentor.io/solutions/faq-accordion-with-svelte-and-tailwindcss-FBU9QawLh",
+    "image": "/images/projects/faq-accordion-card.jpg",
+    "tech": "Svelte, Tailwind",
+    "tag": "Challenge"
+  },
+  {
     "title": "Focused Living",
     "url": "https://focusedliving.com",
     "image": "/images/projects/focused-living.jpg",
