@@ -1,10 +1,18 @@
 [
+    {
+    "company": "E*TRADE from Morgan Stanley",
+    "location": "Columbia, SC",
+    "title": "UI Engineer - Contract",
+    "start": "March 2022",
+    "end": "Current",
+    "desc": "<p>Building a design system utilizing web components for data dense user experiences.</p> <p>Also help with devops tasks including automation and releases.</p>"
+  },
   {
     "company": "Trevetts/Creative+",
     "location": "Columbia, SC",
     "title": "Frontend Developer",
     "start": "Feb 2019",
-    "end": "Current",
+    "end": "Mar 2022",
     "desc": "<p>I got the opportunity to create a development workflow from scratch. Selecting everything from server environments to frameworks. This allowed us to automate the deployment process and watch for bugs in production. We now work with these tools: Forge, Laravel, Vuejs, SCSS, Tailwind, Livewire, Nova, Statamic, and Wordpress.</p> <p>Working with the design team to get their vision on the page. Using all the tools at my disposal to create a fast enjoyable experience for the end user.</p> <ul> <li>Build fast and responsive frontend code</li> <li>Code and maintain backend systems</li> <li>Create server environments and development pipelines</li> <li>Provide regular maintenance</li> <li>Design and prototype UX/UI</li> </ul>"
   },
   {
