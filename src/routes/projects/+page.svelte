@@ -1,7 +1,7 @@
 <script>
 
-  import projects from '../data/projects.json'
-  import Page from '../components/page.svelte'
+  import projects from '$data/projects.json'
+  import Page from '$components/page.svelte'
   
     const metadata = {
       page: {

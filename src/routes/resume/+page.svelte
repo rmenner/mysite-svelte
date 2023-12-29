@@ -1,9 +1,9 @@
 <script>
 
-  import jobs from '../data/jobs.json'
-  import overview from '../data/overview.json'
-  import compliments from '../data/compliments.json'
-  import Page from '../components/page.svelte'
+  import jobs from '$data/jobs.json'
+  import overview from '$data/overview.json'
+  import compliments from '$data/compliments.json'
+  import Page from '$components/page.svelte'
   
     const metadata = {
       page: {
