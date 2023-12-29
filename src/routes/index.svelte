@@ -15,7 +15,7 @@ import Page from '../components/page.svelte'
 
 <Page {metadata}>
 
-  <div class="space-y-6 text-lg font-light text-gray-500 leading-relaxed tracking-wide">
+  <div class="space-y-6 text-lg font-light text-gray-600 leading-relaxed tracking-wide">
 
     <p class="text-2xl">
       As a designer, developer, and individual I strive to do everything with diligence, integrity, and fervor. Always looking for a way to create work that is both useful and beautiful.
@@ -29,10 +29,10 @@ import Page from '../components/page.svelte'
 
     <div class="flex items-center justify-end pr-8 pt-12">
       <div class="mr-3 text-right leading-snug">
-        <p class="font-light text-gray-500">
+        <p class="font-light text-gray-600">
           Thanks for visiting,
         </p>
-        <p class="font-light text-base text-teal-500">
+        <p class="font-light text-base text-teal-700">
           - Ryan
         </p>
       </div>

@@ -20,7 +20,7 @@ $: if ($page.url.pathname) {
 
 
   <div class="md:pr-64 flex flex-col flex-1 h-full">
-    <div class="sticky top-0 flex justify-end z-10 md:hidden pl-1 pt-1 sm:pl-3 sm:pt-3 bg-gray-200 shadow">
+    <div class="sticky top-0 flex justify-end z-10 md:hidden pl-1 pt-1 sm:pl-3 sm:pt-3 bg-gray-100 shadow">
       <MobileRocket refresh={$page.url.pathname}/>
       <button on:click={() => open = !open} type="button" class="mr-1 -mt-0.5 h-12 w-12 inline-flex items-center justify-center text-teal-600 hover:text-teal-500 focus:outline-none">
         <span class="sr-only">Open sidebar</span>
@@ -43,12 +43,12 @@ $: if ($page.url.pathname) {
   {#if open}
   <div class="fixed inset-0 right-0 flex justify-end z-40 md:hidden" role="dialog" aria-modal="true">
 
-    <div transition:fade="{{delay: 250, duration: 300}}" on:click={() => open = !open} class="fixed inset-0 right-0 bg-gray-600 bg-opacity-75" aria-hidden="true"></div>
+    <div transition:fade="{{delay: 250, duration: 300}}" on:click={() => open = !open} class="fixed inset-0 right-0 bg-gray-300 bg-opacity-75" aria-hidden="true"></div>
     <div class="flex-shrink-0 w-14" aria-hidden="true">
       <!-- Force sidebar to shrink to fit close icon -->
     </div>
 
-    <div transition:fly="{{duration: 400, x: 300}}" class="relative flex-1 flex flex-col max-w-xs w-full bg-gray-200">
+    <div transition:fly="{{duration: 400, x: 300}}" class="relative flex-1 flex flex-col max-w-xs w-full bg-gray-100">
  
       <div class="absolute top-0 right-0 mr-3 pt-2">
         <button on:click={() => open = !open} type="button" class="ml-1 flex items-center justify-center h-10 w-10 rounded-full focus:outline-none ">

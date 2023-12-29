@@ -15,7 +15,7 @@ const config = {
       },
       keyframes: {
         'rocket': {
-          '0%': { transform: 'translateY(1px)' },
+          '0%': { transform: 'translateY(0px)' },
           '25%': { transform: 'translateY(-15px)' },
           '50%': { transform: 'translateY(-5px)' },
           '75%': { transform: 'translateY(-10px)' },
