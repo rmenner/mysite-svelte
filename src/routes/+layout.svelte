@@ -21,7 +21,7 @@
     <div class="md:pr-64 flex flex-col flex-1 h-full">
       <div class="sticky top-0 flex justify-end z-10 md:hidden pl-1 pt-1 sm:pl-3 sm:pt-3 bg-gray-100 dark:bg-neutral-950 shadow">
         <MobileRocket refresh={$page.url.pathname}/>
-        <button on:click={() => open = !open} type="button" class="mr-1 -mt-0.5 h-12 w-12 inline-flex items-center justify-center text-teal-600 dark:text-teal-300 hover:text-teal-500 focus:outline-none">
+        <button on:click={() => open = !open} tabindex="0" class="mr-1 -mt-0.5 h-12 w-12 inline-flex items-center justify-center text-teal-600 dark:text-teal-300 hover:text-teal-500 focus:outline-none focus-visible:ring-1 focus-visible:ring-offset-2 focus:ring-0 focus-visible:ring-black dark:focus-visible:ring-black">
           <span class="sr-only">Open sidebar</span>
           <!-- Heroicon name: outline/menu -->
           <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -47,10 +47,10 @@
         <!-- Force sidebar to shrink to fit close icon -->
       </div>
   
-      <div transition:fly|global="{{duration: 400, x: 300}}" class="relative flex-1 flex flex-col max-w-xs w-full bg-gray-100 dark:bg-neutral-950">
+      <div transition:fly|global="{{duration: 400, x: 300}}" class="relative flex-1 flex flex-col max-w-xs w-full bg-gray-200 dark:bg-neutral-950">
    
         <div class="absolute top-0 right-0 mr-3 pt-2">
-          <button on:click={() => open = !open} type="button" class="ml-1 flex items-center justify-center h-10 w-10 rounded-full focus:outline-none ">
+          <button on:click={() => open = !open} tabindex="0" class="ml-1 flex items-center justify-center h-10 w-10 rounded-full focus:outline-none focus-visible:ring-1 focus-visible:ring-offset-2 focus:ring-0 focus-visible:ring-black dark:focus-visible:ring-black">
             <span class="sr-only">Close sidebar</span>
             <!-- Heroicon name: outline/x -->
             <svg class="h-6 w-6 text-teal-700 dark:text-teal-300 hover:text-teal-500 focus:outline-none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
