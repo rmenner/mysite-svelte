@@ -12,22 +12,23 @@
   {
     "title": "Tools",
     "list": [
-      "Adobe, Sketch, CodePen",
+      "Adobe, Sketch, Figma, CodePen",
       "VsCode, PhpStorm, Navicat",
-      "Homebrew,  Yarn, Composer, Valet",
+      "Homebrew, Yarn, Composer, Valet",
       "Vagrant, Docker, Forge, Vapor",
-      "Clickup, Trello, Github"
+      "Clickup, Trello, Github, Jira"
     ]
   },
   {
     "title": "Tech",
     "list": [
-      "HTML, CSS/Sass/Tailwind, SVG,",
+      "HTML, CSS/Sass/Tailwind, SVG",
       "PHP, MySQL, JavaScript",
       "Statamic, Nova, Wordpress",
-      "Vue, Alpine, Svelte",
+      "React, Vue, Alpine, Svelte",
       "Laravel, Livewire",
-      "Learning Python"
+      "Web Components, Stencil",
+      "Github Actions, CI/CD"
     ]
   },
   {
