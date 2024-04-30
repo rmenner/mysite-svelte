@@ -22,7 +22,7 @@
         <h2 class="uppercase text-teal-700 dark:text-teal-300 tracking-widest">Overview</h2>
       </div>
 
-      <div class="prose dark:prose-invert">
+      <div class="prose dark:prose-invert mb-5">
         <p>Crafting web experiences for over a decade, I prioritize mobile-first designs. It's all about speed and intuitive interfaces. I love sharing knowledge and learning continuously. Staying updated on web trends and technologies is crucial to me. I focus on design-driven development, mentorship, and mindful coding. My goal? Deliver top-notch web solutions that solve real problems and beautify the web.</p>
       </div>
 
