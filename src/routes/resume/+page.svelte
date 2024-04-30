@@ -23,7 +23,7 @@
       </div>
 
       <div class="prose dark:prose-invert">
-        <p>I do not have what you would call a traditional education. I am one of those "Homeschooled" kids. Learning how to learn was the first skill I acquired in that kind of educational environment. Continue that mindset 20 years, I have been able to gain a wealth of experience.</p>
+        <p>Crafting web experiences for over a decade, I prioritize mobile-first designs. It's all about speed and intuitive interfaces. I love sharing knowledge and learning continuously. Staying updated on web trends and technologies is crucial to me. I focus on design-driven development, mentorship, and mindful coding. My goal? Deliver top-notch web solutions that solve real problems and beautify the web.</p>
       </div>
 
       <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-8 pb-8">
