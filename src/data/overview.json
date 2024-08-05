@@ -23,12 +23,12 @@
     "title": "Tech",
     "list": [
       "HTML, CSS/Sass/Tailwind, SVG",
-      "PHP, MySQL, JavaScript",
+      "PHP, MySQL, JavaScript, Node",
       "Statamic, Nova, Wordpress",
       "React, Vue, Alpine, Svelte",
       "Laravel, Livewire",
       "Web Components, Stencil, Lit",
-      "Github Actions, CI/CD"
+      "Github Actions, Bash, CI/CD"
     ]
   },
   {

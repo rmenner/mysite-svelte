@@ -1,11 +1,11 @@
 [
-    {
+  {
     "company": "E*TRADE from Morgan Stanley",
     "location": "Columbia, SC",
     "title": "UI Engineer - Contract",
     "start": "March 2022",
     "end": "Current",
-    "desc": "<p>Working to build an accessible and framework agnostic design system for data dense user experiences. Our tech stack includes: web components, design tokens, Storybook, and Figma. Aside from writing documentation, I also help dev teams onboard and debug issues using our components in React or Angular frameworks. Other job highlights include:</p><ul><li>Created a code-pen style editor to demo components without installation.</li><li>Created CI/CD processes that ensured automated, maintainable and scalable deployments.</li><li>Assisted team members on development setup, code debugging, and best practices. Also mentored junior developers.</li></ul>"
+    "desc": "<p>Working to build an accessible and framework agnostic design system for data dense user experiences. Our tech stack includes: web components, design tokens, Storybook, and Figma. Aside from writing documentation, I also help dev teams onboard and debug issues using our components in React or Angular frameworks. Other job highlights include:</p><ul><li>Created a code-pen style editor to demo components without installation. Built with React.</li><li>Created ci/cd processes that ensured automated, maintainable and scalable deployments. Combinatin of Github Actions, Bash, and Node scripts.</li><li>Assisted team members on development setup, code debugging, and best practices. Also mentored junior developers.</li><li>Maintain and delploy our React based documentation website. Also as part of my devops responsiblites I upgraded our site from Webpack to Vite. This brought our compile time down from 20mins to 5mins.</li><li>Built a website for a charity (Caleb’s Trio of Hope) with a small 3 person team. Tech stack included: ploi.io, Laravel, Statamic, Tailwind, Alpine</li></ul>"
   },
   {
     "company": "Trevetts/Creative+",
@@ -13,7 +13,7 @@
     "title": "Frontend Developer",
     "start": "Feb 2019",
     "end": "Mar 2022",
-    "desc": "<p>I got the opportunity to create a development workflow from scratch. Selecting everything from server environments to frameworks. This allowed us to automate the deployment process and watch for bugs in production. We now work with these tools: Forge, Laravel, Vuejs, SCSS, Tailwind, Livewire, Nova, Statamic, and Wordpress.</p> <p>Working with the design team to get their vision on the page. Using all the tools at my disposal to create a fast enjoyable experience for the end user.</p> <ul> <li>Build fast and responsive frontend code</li> <li>Code and maintain backend systems</li> <li>Create server environments and development pipelines</li> <li>Provide regular maintenance</li> <li>Design and prototype UX/UI</li> </ul>"
+    "desc": "<p>I had the opportunity to create a development workflow from scratch. Selecting everything from server environments to frameworks. This let us automate the deployment process with Vapor or Forge to cloud providers like AWS and Digital Ocean. We now work with great tools: Laravel, PHP, Vue, SCSS, Tailwind, Livewire, Alpine, Nova, Statamic, and Wordpress.</p> <p>Working with the design team to get their vision on the page. Using all the tools at my disposal to create a fast enjoyable experience for the end user.</p> <ul><li>Build fast and responsive front-end code</li><li>Code and maintain backend systems</li><li>Manage server environments and development pipelines</li><li>Provide regular maintenance that included legacy Angular code</li><li>Design and prototype UX/UI using CodePen and Adobe Illustrator</li><li>Pair programming and local enviorment onboarding</li></ul>"
   },
   {
     "company": "LoudDoor",
