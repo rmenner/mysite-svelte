@@ -1,10 +1,18 @@
 [
   {
+    "company": "Alaska Air",
+    "location": "Columbia, SC",
+    "title": "Senior Software Engineer - Contract",
+    "start": "Oct 2024",
+    "end": "Current",
+    "desc": "<p>Working on the Auro Design System, Alaska Airlines' digital component library that helps create consistent user experiences across their websites and apps. Our tech stack includes: web components, design tokens, auro-cli, GitHub Actions, and Lit. My work focuses on improving build tools, streamlining deployment processes, and making it easier for developers to use our components.</p><ul><li>Built and maintained 20+ accessible website components that work across different browsers and devices using modern web standards.</li><li>Created automated deployment systems for our team to release component updates safely and consistently.</li><li>Improved build tools by consolidating multiple systems into one unified tool (auro-cli) for better efficiency.</li><li>Managed software releases and set up automated processes to ensure quality and version control.</li><li>Updated documentation and code structure to help new developers get started faster and use components more effectively.</li></ul>"
+  },
+  {
     "company": "E*TRADE from Morgan Stanley",
     "location": "Columbia, SC",
     "title": "UI Engineer - Contract",
     "start": "March 2022",
-    "end": "Current",
+    "end": "Oct 2024",
     "desc": "<p>Working to build an accessible and framework agnostic design system for data dense user experiences. Our tech stack includes: web components, design tokens, Storybook, and Figma. Aside from writing documentation, I also help dev teams onboard and debug issues using our components in React or Angular frameworks. Other job highlights include:</p><ul><li>Created a code-pen style editor to demo components without installation. Built with React.</li><li>Created ci/cd processes that ensured automated, maintainable and scalable deployments. Combinatin of Github Actions, Bash, and Node scripts.</li><li>Assisted team members on development setup, code debugging, and best practices. Also mentored junior developers.</li><li>Maintain and delploy our React based documentation website. Also as part of my devops responsiblites I upgraded our site from Webpack to Vite. This brought our compile time down from 20mins to 5mins.</li><li>Built a website for a charity (Caleb’s Trio of Hope) with a small 3 person team. Tech stack included: ploi.io, Laravel, Statamic, Tailwind, Alpine</li></ul>"
   },
   {
