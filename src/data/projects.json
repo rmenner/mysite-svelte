@@ -1,5 +1,19 @@
 [
   {
+    "title": "Auro Design System",
+    "url": "https://auro.alaskaair.com/",
+    "image": "/images/projects/auro.jpg",
+    "tech": "Lit, SCSS, Rollup, Turbo, Auro CLI",
+    "tag": "Component Library"
+  },
+  {
+    "title": "C.K. Slorra",
+    "url": "https://ckslorraauthor.com",
+    "image": "/images/projects/ckslorra.jpg",
+    "tech": "Svelte, Tina CMS, Skeleton UI, Tailwind",
+    "tag": "Website"
+  },
+  {
     "title": "Trevetts",
     "url": "https://trevetts.com",
     "image": "/images/projects/trevetts.jpg",
