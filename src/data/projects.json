@@ -4,69 +4,79 @@
     "url": "https://auro.alaskaair.com/",
     "image": "/images/projects/auro.jpg",
     "tech": "Lit, SCSS, Rollup, Turbo, Auro CLI",
-    "tag": "Component Library"
+    "tag": "Component Library",
+    "published": true
   },
   {
     "title": "C.K. Slorra",
     "url": "https://ckslorraauthor.com",
     "image": "/images/projects/ckslorra.jpg",
     "tech": "Svelte, Tina CMS, Skeleton UI, Tailwind",
-    "tag": "Website"
+    "tag": "Website",
+    "published": true
   },
   {
     "title": "Trevetts",
     "url": "https://trevetts.com",
     "image": "/images/projects/trevetts.jpg",
     "tech": "Laravel, Statamic, Livewire, Alpine, Tailwind",
-    "tag": "Website"
+    "tag": "Website",
+    "published": true
   },
   {
     "title": "Brewer Insurance",
     "url": "https://brewerinsuranceschool.com/",
     "image": "/images/projects/brewer-insurance.jpg",
     "tech": "Laravel, Nova, Vue, Tailwind",
-    "tag": "Website"
+    "tag": "Website",
+    "published": true
   },
   {
     "title": "3-column preview card",
     "url": "https://www.frontendmentor.io/solutions/responsive-3-column-card-layout-using-flexbox-UUSd1Q5Rz",
     "image": "/images/projects/3-column-preview-card.jpg",
     "tech": "HTML, CSS",
-    "tag": "Challenge"
+    "tag": "Challenge",
+    "published": false
   },
   {
     "title": "CKC Fire Truck Pull",
     "url": "https://pull.curingkidscancer.org",
     "image": "/images/projects/fire-truck-pull.jpg",
     "tech": "Laravel, Nova, Vue, Tailwind",
-    "tag": "App"
+    "tag": "App",
+    "published": true
   },
   {
     "title": "FAQ accordion card",
     "url": "https://www.frontendmentor.io/solutions/faq-accordion-with-svelte-and-tailwindcss-FBU9QawLh",
     "image": "/images/projects/faq-accordion-card.jpg",
     "tech": "Svelte, Tailwind",
-    "tag": "Challenge"
+    "tag": "Challenge",
+    "published": false
   },
   {
     "title": "Focused Living",
     "url": "https://focusedliving.com",
     "image": "/images/projects/focused-living.jpg",
     "tech": "Laravel, Nova, Vue, Tailwind",
-    "tag": "Website"
+    "tag": "Website",
+    "published": true
   },
   {
     "title": "Muscle & Strength",
     "url": "https://www.muscleandstrength.com/",
     "image": "/images/projects/mands.jpg",
     "tech": "Drupal, Magento, Sass, jQuery",
-    "tag": "Website"
+    "tag": "Website",
+    "published": true
   },
   {
     "title": "FPCS",
     "url": "https://fpcscorp.com",
     "image": "/images/projects/fpcs.jpg",
     "tech": "Wordpress, Elementor",
-    "tag": "Website"
+    "tag": "Website",
+    "published": true
   }
 ]

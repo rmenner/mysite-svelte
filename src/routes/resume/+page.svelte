@@ -12,6 +12,10 @@
       title: 'Resume',
       description: 'My employment and tech experience.'
     }
+
+    // Filter to show only published jobs and compliments
+    $: publishedJobs = jobs.filter(job => job.published === true)
+    $: publishedCompliments = compliments.filter(compliment => compliment.published === true)
   
   </script>
   
@@ -52,7 +56,7 @@
         <h2 class="uppercase text-teal-700 dark:text-teal-300 tracking-widest">Experience</h2>
       </div>
       <ul>
-        {#each jobs as { company, location, title, start, end, desc }, i}
+        {#each publishedJobs as { company, location, title, start, end, desc }, i}
           <li>
             <div class="items-center lg:flex justify-between ... { i !== 0 ? 'mt-20' : '' }">
               <div class="job-info">			
@@ -83,7 +87,7 @@
         <h2 class="uppercase text-teal-700 dark:text-teal-300 tracking-widest">Compliments</h2>
       </div>
       <div class="prose dark:prose-invert">
-        {#each compliments as { name, title, company, content }, i}
+        {#each publishedCompliments as { name, title, company, content }, i}
           
             <h3 class="uppercase text-teal-800 dark:text-teal-300 text-xl font-bold ... { i !== 0 ? 'mt-20' : '' }">
               {name}
