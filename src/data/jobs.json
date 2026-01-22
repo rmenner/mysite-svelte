@@ -1,20 +1,34 @@
 [
   {
     "company": "Alaska Air",
-    "location": "Columbia, SC",
+    "location": "Remote",
     "title": "Senior Software Engineer - Contract",
     "start": "Oct 2024",
     "end": "Current",
-    "desc": "<p>Working on the Auro Design System, Alaska Airlines' digital component library that helps create consistent user experiences across their websites and apps. Our tech stack includes: web components, design tokens, auro-cli, GitHub Actions, and Lit. My work focuses on improving build tools, streamlining deployment processes, and making it easier for developers to use our components.</p><ul><li>Built and maintained 20+ accessible website components that work across different browsers and devices using modern web standards.</li><li>Created automated deployment systems for our team to release component updates safely and consistently.</li><li>Improved build tools by consolidating multiple systems into one unified tool (auro-cli) for better efficiency.</li><li>Managed software releases and set up automated processes to ensure quality and version control.</li><li>Updated documentation and code structure to help new developers get started faster and use components more effectively.</li></ul>",
+    "overview": "Working on the Auro Design System, Alaska Airlines' digital component library that helps create consistent user experiences across their websites and apps. Our tech stack includes: web components, design tokens, auro-cli, GitHub Actions, and Lit. My work focuses on improving build tools, streamlining deployment processes, and making it easier for developers to use our components.",
+    "bullets": [
+      "Built and maintained 20+ accessible website components that work across different browsers and devices using modern web standards.",
+      "Created automated deployment systems for our team to release component updates safely and consistently.",
+      "Improved build tools by consolidating multiple systems into one unified tool (auro-cli) for better efficiency.",
+      "Managed software releases and set up automated processes to ensure quality and version control.",
+      "Updated documentation and code structure to help new developers get started faster and use components more effectively."
+    ],
     "published": true
   },
   {
     "company": "E*TRADE from Morgan Stanley",
-    "location": "Columbia, SC",
+    "location": "Remote",
     "title": "UI Engineer - Contract",
     "start": "March 2022",
     "end": "Oct 2024",
-    "desc": "<p>Working to build an accessible and framework agnostic design system for data dense user experiences. Our tech stack includes: web components, design tokens, Storybook, and Figma. Aside from writing documentation, I also help dev teams onboard and debug issues using our components in React or Angular frameworks. Other job highlights include:</p><ul><li>Created a code-pen style editor to demo components without installation. Built with React.</li><li>Created ci/cd processes that ensured automated, maintainable and scalable deployments. Combinatin of Github Actions, Bash, and Node scripts.</li><li>Assisted team members on development setup, code debugging, and best practices. Also mentored junior developers.</li><li>Maintain and delploy our React based documentation website. Also as part of my devops responsiblites I upgraded our site from Webpack to Vite. This brought our compile time down from 20mins to 5mins.</li><li>Built a website for a charity (Caleb’s Trio of Hope) with a small 3 person team. Tech stack included: ploi.io, Laravel, Statamic, Tailwind, Alpine</li></ul>",
+    "overview": "Working to build an accessible and framework agnostic design system for data dense user experiences. Our tech stack includes: web components, design tokens, Storybook, and Figma. Aside from writing documentation, I also help dev teams onboard and debug issues using our components in React or Angular frameworks. Other job highlights include:",
+    "bullets": [
+      "Created a code-pen style editor to demo components without installation. Built with React",
+      "Created ci/cd processes that ensured automated, maintainable and scalable deployments. Combinatin of Github Actions, Bash, and Node scripts",
+      "Assisted team members on development setup, code debugging, and best practices. Also mentored junior developers",
+      "Maintain and delploy our React based documentation website. Also as part of my devops responsiblites I upgraded our site from Webpack to Vite. This brought our compile time down from 20mins to 5mins",
+      "Built a website for a charity (Caleb's Trio of Hope) with a small 3 person team. Tech stack included: ploi.io, Laravel, Statamic, Tailwind, Alpine"
+    ],
     "published": true
   },
   {
@@ -23,7 +37,15 @@
     "title": "Frontend Developer",
     "start": "Feb 2019",
     "end": "Mar 2022",
-    "desc": "<p>I had the opportunity to create a development workflow from scratch. Selecting everything from server environments to frameworks. This let us automate the deployment process with Vapor or Forge to cloud providers like AWS and Digital Ocean. We now work with great tools: Laravel, PHP, Vue, SCSS, Tailwind, Livewire, Alpine, Nova, Statamic, and Wordpress.</p> <p>Working with the design team to get their vision on the page. Using all the tools at my disposal to create a fast enjoyable experience for the end user.</p> <ul><li>Build fast and responsive front-end code</li><li>Code and maintain backend systems</li><li>Manage server environments and development pipelines</li><li>Provide regular maintenance that included legacy Angular code</li><li>Design and prototype UX/UI using CodePen and Adobe Illustrator</li><li>Pair programming and local enviorment onboarding</li></ul>",
+    "overview": "I had the opportunity to create a development workflow from scratch. Selecting everything from server environments to frameworks. This let us automate the deployment process with Vapor or Forge to cloud providers like AWS and Digital Ocean. We now work with great tools: Laravel, PHP, Vue, SCSS, Tailwind, Livewire, Alpine, Nova, Statamic, and Wordpress. Working with the design team to get their vision on the page. Using all the tools at my disposal to create a fast enjoyable experience for the end user.",
+    "bullets": [
+      "Build fast and responsive front-end code",
+      "Code and maintain backend systems",
+      "Manage server environments and development pipelines",
+      "Provide regular maintenance that included legacy Angular code",
+      "Design and prototype UX/UI using CodePen and Adobe Illustrator",
+      "Pair programming and local enviorment onboarding"
+    ],
     "published": true
   },
   {
@@ -32,7 +54,13 @@
     "title": "Full Stack Developer & Designer",
     "start": "Sep 2017",
     "end": "Jan 2019",
-    "desc": "<p>I designed and developed anything from advertising to web apps. Managing project creative direction all the way to the final product. Ensuring that every detail of the user experience is tailored to exceed the target audience expectations. The tech stack I used consisted of Laravel, VUE.js, and SASS.</p> <ul> <li>Design and develop responsive web solutions</li> <li>Test, analyze, and improve the user experience</li> <li>Create high converting advertising media</li> <li>Maintain and improve existing web apps</li> </ul>",
+    "overview": "I designed and developed anything from advertising to web apps. Managing project creative direction all the way to the final product. Ensuring that every detail of the user experience is tailored to exceed the target audience expectations. The tech stack I used consisted of Laravel, VUE.js, and SASS.",
+    "bullets": [
+      "Design and develop responsive web solutions",
+      "Test, analyze, and improve the user experience",
+      "Create high converting advertising media",
+      "Maintain and improve existing web apps"
+    ],
     "published": true
   },
   {
@@ -41,7 +69,16 @@
     "title": "UI/UX Designer & Developer",
     "start": "Apr 2014",
     "end": "Sep 2017",
-    "desc": "<p>Hired specifically by M&S to redesign their entire website making it completely responsive. This project included designing and coding everything from the checkout system to the way articles look. As the sole developer on this project I was directly responsible for site design and developing frontend code. This project was a gigantic undertaking consisting of 30+ page templates and thousands of pages of content and products that needed to be either re-designed or newly created to meet specific demands.</p> <ul> <li>Designed responsive page templates and marketing pages with Adobe Illustrator or Sketch.</li> <li>Code responsive prototypes of designs in CodePen with static data.</li> <li>Implement prototype code into Magento or Drupal CMS.</li> <li>Assist store, content, and marketing teams with any custom CSS design work to format forms or special landing pages.</li> <li>Design solutions to any UX issues reported by customer service.</li> <li>Created custom graphics and icons using Photoshop and Illustrator.</li> <li>Created SASS styles and jQuery functions to customize the responsive user experience.</li> </ul>",
+    "overview": "Hired specifically by M&S to redesign their entire website making it completely responsive. This project included designing and coding everything from the checkout system to the way articles look. As the sole developer on this project I was directly responsible for site design and developing frontend code. This project was a gigantic undertaking consisting of 30+ page templates and thousands of pages of content and products that needed to be either re-designed or newly created to meet specific demands.",
+    "bullets": [
+      "Designed responsive page templates and marketing pages with Adobe Illustrator or Sketch.",
+      "Code responsive prototypes of designs in CodePen with static data.",
+      "Implement prototype code into Magento or Drupal CMS.",
+      "Assist store, content, and marketing teams with any custom CSS design work to format forms or special landing pages.",
+      "Design solutions to any UX issues reported by customer service.",
+      "Created custom graphics and icons using Photoshop and Illustrator.",
+      "Created SASS styles and jQuery functions to customize the responsive user experience."
+    ],
     "published": true
   },
   {
@@ -50,7 +87,13 @@
     "title": "Frontend/Backend Web Developer",
     "start": "Jul 2012",
     "end": "Apr 2014",
-    "desc": "<p>I was hired on to help with front end website design and CSS development. I learned WordPress CMS development on the job and quickly became the “custom guy” and assisted other team members with any technical difficulties.</p> <ul> <li>Custom WordPress templates and themes.</li> <li>Setup a system for staging and deploying custom sites via Beanstalk and Rackspace.</li> <li>Worked directly with clients to design them a website that meets their needs.</li> <li>Trained clients how to update and manage their custom website.</li> </ul>",
+    "overview": "I was hired on to help with front end website design and CSS development. I learned WordPress CMS development on the job and quickly became the \"custom guy\" and assisted other team members with any technical difficulties.",
+    "bullets": [
+      "Custom WordPress templates and themes.",
+      "Setup a system for staging and deploying custom sites via Beanstalk and Rackspace.",
+      "Worked directly with clients to design them a website that meets their needs.",
+      "Trained clients how to update and manage their custom website."
+    ],
     "published": false
   },
   {
@@ -59,7 +102,8 @@
     "title": "Impress Printing Associate",
     "start": "Oct 2011",
     "end": "Jun 2012",
-    "desc": "Worked with customers to print anything they needed. Also designed anything they may need from wedding invites to business cards.",
+    "overview": "Worked with customers to print anything they needed. Also designed anything they may need from wedding invites to business cards.",
+    "bullets": [],
     "published": false
   },
   {
@@ -68,7 +112,13 @@
     "title": "Lead Designer",
     "start": "Jul 2010",
     "end": "Sep 2011",
-    "desc": "<p>Designed for the Marketing and Development departments. This included everything from landing pages to million-dollar marketing campaigns.</p> <ul> <li>Worked with development to create high converting landing pages.</li> <li>Coded and designed marketing emails.</li> <li>Created marketing videos including setting up the shoot, filming, and producing.</li> <li>Assisted in basic office IT support.</li> </ul>",
+    "overview": "Designed for the Marketing and Development departments. This included everything from landing pages to million-dollar marketing campaigns.",
+    "bullets": [
+      "Worked with development to create high converting landing pages.",
+      "Coded and designed marketing emails.",
+      "Created marketing videos including setting up the shoot, filming, and producing.",
+      "Assisted in basic office IT support."
+    ],
     "published": false
   },
   {
@@ -77,7 +127,8 @@
     "title": "Project Assistant",
     "start": "Jan 2009",
     "end": "Jan 2010",
-    "desc": "Manage survey data, quality control and call center reports. Development and Maintenance of company website. Managed all office equipment.",
+    "overview": "Manage survey data, quality control and call center reports. Development and Maintenance of company website. Managed all office equipment.",
+    "bullets": [],
     "published": false
   },
   {
@@ -86,7 +137,8 @@
     "title": "Lead Photographer",
     "start": "Jan 2006",
     "end": "Jan 2010",
-    "desc": "Advanced photo editing/retouching. Video editing. Solo wedding/event photography. Custom albums.",
+    "overview": "Advanced photo editing/retouching. Video editing. Solo wedding/event photography. Custom albums.",
+    "bullets": [],
     "published": false
   },
   {
@@ -95,7 +147,15 @@
     "title": "Media Assistant",
     "start": "Jan 2002",
     "end": "Jan 2006",
-    "desc": "<ul> <li>Newspaper – Editor-in-chief/Head artist – 2 years.</li> <li>DVD productions for drama department.</li> <li>Taught classes for \"Teen Tech Week\" Classes included Photoshop, iMovie, and Dreamweaver.</li> <li>Websites for numerous departments.</li> <li>Teacher’ s Aide.</li> <li>Created 'MHS TV' - video announcement network.</li> </ul>",
+    "overview": "",
+    "bullets": [
+      "Newspaper - Editor-in-chief/Head artist - 2 years.",
+      "DVD productions for drama department.",
+      "Taught classes for \"Teen Tech Week\" Classes included Photoshop, iMovie, and Dreamweaver.",
+      "Websites for numerous departments.",
+      "Teacher's Aide.",
+      "Created 'MHS TV' - video announcement network."
+    ],
     "published": false
   }
 ]
