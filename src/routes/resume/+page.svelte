@@ -69,7 +69,6 @@
                   <span>-></span>
                   <span class="end"> { end } </span>
                 </div>
-                <div class="location text-sm text-teal-700 dark:text-teal-300"> { location } </div>
               </div>
             </div>
             {#if desc}
