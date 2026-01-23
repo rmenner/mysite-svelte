@@ -38,7 +38,7 @@
 <div class="max-w-none mx-auto p-2 bg-white text-black font-display" style="width: 7.5in; min-height: 10in;">
   <!-- Contact Information Header -->
   <div class="text-center mb-2 pb-2">
-    <h1 class="text-2xl font-bold text-teal-700 uppercase tracking-wide mb-2">{contactInfo.name}</h1>
+    <h1 class="text-xl font-bold text-teal-700 uppercase tracking-wide mb-1">{contactInfo.name}</h1>
     <div class="flex justify-center flex-wrap gap-3 text-xs text-gray-600 mb-1">
       <span>{contactInfo.email}</span>
       <span>{contactInfo.phone}</span>
@@ -51,14 +51,14 @@
   </div>
 
   <!-- Professional Summary -->
-  <div class="text-gray-700 text-xs pt-3 mb-3 border-t border-teal-600">
+  <div class="text-gray-700 text-xs pt-2 mb-2 border-t border-teal-600">
     {@html marked.parse(professionalSummary)}
   </div>
 
   <!-- Professional Experience -->
   <div class="mb-3">
     <div class="border-t border-teal-600 pt-1 mb-2">
-      <h2 class="text-sm font-bold text-teal-700 uppercase tracking-widest">Professional Experience</h2>
+      <h2 class="text-xs font-bold text-teal-700 uppercase tracking-widest">Professional Experience</h2>
     </div>
     
     <div class="space-y-3">
@@ -76,7 +76,7 @@
           
           {#if overview}
             <div class="mt-2 w-full leading-tight text-xs text-gray-700">
-              {@html marked.parse(overview)}
+              {overview}
               {#if bullets}
                 <ul class="list-disc list-outside ml-5 mt-3">
                   {#each bullets as bullet, j}
@@ -94,7 +94,7 @@
   <!-- Technical Skills -->
   <div>
     <div class="border-t border-teal-600 pt-1 mb-2">
-      <h2 class="text-sm font-bold text-teal-700 uppercase tracking-widest">Technical Skills</h2>
+      <h2 class="text-xs font-bold text-teal-700 uppercase tracking-widest">Technical Skills</h2>
     </div>
 
     <div class="space-y-1">
