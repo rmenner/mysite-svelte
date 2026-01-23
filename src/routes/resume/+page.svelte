@@ -1,9 +1,11 @@
 <script>
 
   import jobs from '$data/jobs.json'
-  import overview from '$data/overview.json'
+  import skills from '$data/skills.json'
   import compliments from '$data/compliments.json'
+  import resume from '$data/resume.yml'
   import Page from '$components/page.svelte'
+  import { marked } from 'marked';
   
     const metadata = {
       page: {
@@ -16,7 +18,7 @@
     // Filter to show only published jobs and compliments
     $: publishedJobs = jobs.filter(job => job.published === true)
     $: publishedCompliments = compliments.filter(compliment => compliment.published === true)
-  
+
 </script>
   
 <Page {metadata}>
@@ -26,12 +28,12 @@
       <h2 class="uppercase text-teal-700 dark:text-teal-300 tracking-widest">Overview</h2>
     </div>
 
-    <div class="prose dark:prose-invert pb-5">
-      <p>Crafting web experiences for over a decade, I prioritize mobile-first designs. It's all about speed and intuitive interfaces. I love sharing knowledge and learning continuously. Staying updated on web trends and technologies is crucial to me. I focus on design-driven development, mentorship, and mindful coding. My goal? Deliver top-notch web solutions that solve real problems and beautify the web.</p>
+    <div class="prose dark:prose-invert max-w-full pb-5">
+      {@html marked.parse(resume.overview)}
     </div>
 
     <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-8 pb-8">
-      {#each overview as { title, list }, i}
+      {#each skills as { title, list }, i}
         <li class="shadow-sm shadow-neutral-400 dark:shadow-black dark:bg-black p-5">
           <h3 class="uppercase text-teal-700 dark:text-teal-300 text-xl font-bold pl-4 mb-0">
             {title}
@@ -71,10 +73,10 @@
             </div>
           </div>
           {#if overview}
-            <div class="description prose dark:prose-invert mt-8 w-full">
-              <p>{overview}</p>
+            <div class="description mt-8 prose dark:prose-invert max-w-full">
+              {@html marked.parse(overview)}
               {#if bullets}
-                <ul>
+                <ul class="prose dark:prose-invert">
                   {#each bullets as bullet, j}
                     <li>{bullet}</li>
                   {/each}
@@ -93,7 +95,7 @@
     <div class="border-t-2 border-teal-600 pt-5 mt-5 pb-5">
       <h2 class="uppercase text-teal-700 dark:text-teal-300 tracking-widest">Compliments</h2>
     </div>
-    <div class="prose dark:prose-invert">
+    <div class="prose dark:prose-invert max-w-full">
       {#each publishedCompliments as { name, title, company, content }, i}
         
           <h3 class="uppercase text-teal-800 dark:text-teal-300 text-xl font-bold ... { i !== 0 ? 'mt-20' : '' }">

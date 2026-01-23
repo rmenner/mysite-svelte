@@ -9,14 +9,17 @@
     "pdf": "node scripts/generate-resume-pdf.js"
   },
   "devDependencies": {
+    "@modyfi/vite-plugin-yaml": "^1.1.1",
     "@sveltejs/adapter-auto": "^3.0.0",
     "@sveltejs/adapter-netlify": "^3.0.1",
     "@sveltejs/kit": "^2.0.0",
     "@sveltejs/vite-plugin-svelte": "^3.0.0",
     "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/typography": "^0.5.10",
+    "@types/marked": "^5.0.2",
     "autoprefixer": "^10.4.16",
     "dotenv": "^17.2.3",
+    "marked": "^17.0.1",
     "postcss": "^8.4.32",
     "postcss-load-config": "^5.0.2",
     "puppeteer": "^24.35.0",

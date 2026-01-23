@@ -1,6 +1,8 @@
 <script>
+  import { marked } from 'marked';
   import jobs from '$data/jobs.json';
-  import overview from '$data/overview.json';
+  import overview from '$data/skills.json';
+  import resume from '$data/resume.yml';
   
   export let data;
   
@@ -17,7 +19,7 @@
   $: recentJobs = publishedJobs.slice(0, 3);
   
   // Professional summary - use custom if provided, otherwise default
-  const defaultSummary = "Crafting web experiences for over a decade, I prioritize mobile-first designs. It's all about speed and intuitive interfaces. I love sharing knowledge and learning continuously. Staying updated on web trends and technologies is crucial to me. I focus on design-driven development, mentorship, and mindful coding. My goal? Deliver top-notch web solutions that solve real problems and beautify the web.";
+  const defaultSummary = resume.overview;
   
   $: professionalSummary = (customOverview && customOverview.trim()) ? customOverview : defaultSummary;
 
@@ -50,7 +52,7 @@
 
   <!-- Professional Summary -->
   <div class="text-gray-700 text-xs pt-3 mb-3 border-t border-teal-600">
-    <p>{professionalSummary}</p>
+    {@html marked.parse(professionalSummary)}
   </div>
 
   <!-- Professional Experience -->
@@ -74,7 +76,7 @@
           
           {#if overview}
             <div class="mt-2 w-full leading-tight text-xs text-gray-700">
-              <p>{overview}</p>
+              {@html marked.parse(overview)}
               {#if bullets}
                 <ul class="list-disc list-outside ml-5 mt-3">
                   {#each bullets as bullet, j}

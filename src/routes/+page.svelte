@@ -18,12 +18,12 @@ import Page from '../components/page.svelte'
   <div class="space-y-6 text-lg font-light dark:font-normal text-gray-600 dark:text-gray-100 leading-relaxed tracking-wide">
 
     <p class="text-2xl">
-      As a designer, developer, and individual I strive to do everything with diligence, integrity, and fervor. Always looking for a way to create work that is both useful and beautiful.
+      I transform how teams build digital experiences. Through scalable design systems, streamlined workflows, and accessible components, I empower developers and designers to create work that is both useful and beautiful. Work that reaches millions of users with consistency, performance, and purpose.
     </p>
 
     <h2 class="text-3xl pt-20 font-light dark:font-normal text-teal-700 dark:text-teal-300">Greetings</h2>
     <p>My name is Ryan and I live in famously hot Columbia, South Carolina with my wife and two dogs. Outside of web development, you can find me working on home automation projects, managing home lab infrastructure, or building and flying FPV drones!.</p>
-    <p> I have been crafting responsive web experiences for over 10 years. Specializing in simple mobile first user experiences with an emphasis on performance. I love to learn new things and enjoy teaching others. If you need my help for a project or would like some coaching/mentorship, please feel free to reach out.</p>
+    <p>I have been crafting responsive web experiences for over 10 years, with a deep focus on design systems and component libraries. I specialize in building accessible, framework-agnostic components that scale across teams and applications, from Alaska Airlines' Auro Design System to enterprise solutions at E*TRADE. My expertise spans the full design system lifecycle: from web components and build tooling to developer experience and team adoption. I love to learn new things and enjoy teaching others. If you need my help for a project or would like some coaching/mentorship, please feel free to reach out.</p>
 
     <div class="flex items-center justify-end pr-8 pt-12">
       <div class="mr-3 text-right leading-snug">

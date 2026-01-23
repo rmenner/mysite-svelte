@@ -5,12 +5,11 @@
     "title": "Senior Software Engineer - Contract",
     "start": "Oct 2024",
     "end": "Current",
-    "overview": "Working on the Auro Design System, Alaska Airlines' digital component library that helps create consistent user experiences across their websites and apps. Our tech stack includes: web components, design tokens, auro-cli, GitHub Actions, and Lit. My work focuses on improving build tools, streamlining deployment processes, and making it easier for developers to use our components.",
+    "overview": "Contributed to the development and maintenance of the Auro Design System, Alaska Airlines' digital component library designed to create consistent user experiences across their websites and applications.\n\nThe technology stack includes web components via Lit, design tokens, auro-cli, GitHub Actions, and Storybook/Chromatic. Responsibilities focused on improving build tools, streamlining deployment processes, and enhancing developer experience with component usage.",
     "bullets": [
       "Built and maintained 20+ accessible website components that work across different browsers and devices using modern web standards.",
-      "Created automated deployment systems for our team to release component updates safely and consistently.",
+      "Modernized team gitflow by implementing GitHub Actions workflows, Bash and Node scripts, and semantic release for automated versioning and publishing to streamline deployments and ensure safe, consistent component releases.",
       "Improved build tools by consolidating multiple systems into one unified tool (auro-cli) for better efficiency.",
-      "Managed software releases and set up automated processes to ensure quality and version control.",
       "Updated documentation and code structure to help new developers get started faster and use components more effectively."
     ],
     "published": true
@@ -21,13 +20,13 @@
     "title": "UI Engineer - Contract",
     "start": "March 2022",
     "end": "Oct 2024",
-    "overview": "Working to build an accessible and framework agnostic design system for data dense user experiences. Our tech stack includes: web components, design tokens, Storybook, and Figma. Aside from writing documentation, I also help dev teams onboard and debug issues using our components in React or Angular frameworks. Other job highlights include:",
+    "overview": "Developed an accessible and framework-agnostic design system for data-dense user experiences. The technology stack included web components via Stencil, design tokens, Storybook, and Figma. Responsibilities included writing documentation, assisting development teams with onboarding, and debugging issues when implementing components in React or Angular frameworks.",
     "bullets": [
-      "Created a code-pen style editor to demo components without installation. Built with React",
-      "Created ci/cd processes that ensured automated, maintainable and scalable deployments. Combinatin of Github Actions, Bash, and Node scripts",
-      "Assisted team members on development setup, code debugging, and best practices. Also mentored junior developers",
-      "Maintain and delploy our React based documentation website. Also as part of my devops responsiblites I upgraded our site from Webpack to Vite. This brought our compile time down from 20mins to 5mins",
-      "Built a website for a charity (Caleb's Trio of Hope) with a small 3 person team. Tech stack included: ploi.io, Laravel, Statamic, Tailwind, Alpine"
+      "Created a CodePen-style editor to demonstrate components without installation, built with React",
+      "Developed CI/CD processes that ensured automated, maintainable, and scalable deployments using a combination of GitHub Actions, Bash, and Node scripts",
+      "Assisted team members with development setup, code debugging, and best practices while mentoring junior developers",
+      "Maintained and deployed React-based documentation website, upgrading the site from Webpack to Vite as part of DevOps responsibilities, reducing compile time from 20 minutes to 5 minutes",
+      "Built a website for a charity (Caleb's Trio of Hope) with a 3-person team using ploi.io, Laravel, Statamic, Tailwind, and Alpine"
     ],
     "published": true
   },
@@ -37,14 +36,14 @@
     "title": "Frontend Developer",
     "start": "Feb 2019",
     "end": "Mar 2022",
-    "overview": "I had the opportunity to create a development workflow from scratch. Selecting everything from server environments to frameworks. This let us automate the deployment process with Vapor or Forge to cloud providers like AWS and Digital Ocean. We now work with great tools: Laravel, PHP, Vue, SCSS, Tailwind, Livewire, Alpine, Nova, Statamic, and Wordpress. Working with the design team to get their vision on the page. Using all the tools at my disposal to create a fast enjoyable experience for the end user.",
+    "overview": "Established a complete development workflow from the ground up, selecting server environments and frameworks to optimize team productivity. This approach enabled automated deployment processes using Vapor or Forge to cloud providers including AWS and Digital Ocean. The technology stack included Laravel, PHP, Vue, SCSS, Tailwind, Livewire, Alpine, Nova, Statamic, and WordPress. Collaborated closely with the design team to translate creative vision into functional web experiences, utilizing available tools to create fast and enjoyable user experiences.",
     "bullets": [
-      "Build fast and responsive front-end code",
-      "Code and maintain backend systems",
-      "Manage server environments and development pipelines",
-      "Provide regular maintenance that included legacy Angular code",
-      "Design and prototype UX/UI using CodePen and Adobe Illustrator",
-      "Pair programming and local enviorment onboarding"
+      "Built fast and responsive front-end code",
+      "Coded and maintained backend systems",
+      "Managed server environments and development pipelines",
+      "Provided regular maintenance including legacy Angular code",
+      "Designed and prototyped UX/UI using CodePen and Adobe Illustrator",
+      "Conducted pair programming and local environment onboarding"
     ],
     "published": true
   },
@@ -54,7 +53,7 @@
     "title": "Full Stack Developer & Designer",
     "start": "Sep 2017",
     "end": "Jan 2019",
-    "overview": "I designed and developed anything from advertising to web apps. Managing project creative direction all the way to the final product. Ensuring that every detail of the user experience is tailored to exceed the target audience expectations. The tech stack I used consisted of Laravel, VUE.js, and SASS.",
+    "overview": "Designed and developed comprehensive digital solutions ranging from advertising materials to web applications. Managed project creative direction from conception through final product delivery, ensuring that every detail of the user experience was tailored to exceed target audience expectations. The primary technology stack consisted of Laravel, Vue.js, and SASS.",
     "bullets": [
       "Design and develop responsive web solutions",
       "Test, analyze, and improve the user experience",
