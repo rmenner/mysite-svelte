@@ -8,3 +8,7 @@ node_modules
 !.env.example
 /.netlify
 *.pdf
+
+# Letter management
+/letters
+/letters-pdf
