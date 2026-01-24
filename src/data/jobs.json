@@ -7,9 +7,8 @@
     "end": "Current",
     "overview": "Contributed to the development and maintenance of the Auro Design System, Alaska Airlines' digital component library designed to create consistent user experiences across their websites and applications.\n\nThe technology stack includes web components via Lit, design tokens, auro-cli, GitHub Actions, and Storybook/Chromatic. Responsibilities focused on improving build tools, streamlining deployment processes, and enhancing developer experience with component usage.",
     "bullets": [
-      "Built and maintained 20+ accessible website components that work across different browsers and devices using modern web standards.",
-      "Modernized team gitflow by implementing GitHub Actions workflows, Bash and Node scripts, and semantic release for automated versioning and publishing to streamline deployments and ensure safe, consistent component releases.",
-      "Improved build tools by consolidating multiple systems into one unified tool (auro-cli) for better efficiency.",
+      "Configured Storybook to integrate with custom element manifest, enabling automatic population of interactive controls for props, methods, slots, and CSS properties, eliminating manual argTypes configuration and establishing foundation for future React and Svelte framework wrappers.",
+      "Developed automation system using auro-cli that reduced release cycle time by 80% across 20+ component repositories, decreasing deployment time from a full sprint to just a few days while implementing GitHub Actions workflows and semantic release for automated versioning.",
       "Updated documentation and code structure to help new developers get started faster and use components more effectively."
     ],
     "published": true
@@ -22,11 +21,10 @@
     "end": "Oct 2024",
     "overview": "Developed an accessible and framework-agnostic design system for data-dense user experiences. The technology stack included web components via Stencil, design tokens, Storybook, and Figma. Responsibilities included writing documentation, assisting development teams with onboarding, and debugging issues when implementing components in React or Angular frameworks.",
     "bullets": [
-      "Created a CodePen-style editor to demonstrate components without installation, built with React",
-      "Developed CI/CD processes that ensured automated, maintainable, and scalable deployments using a combination of GitHub Actions, Bash, and Node scripts",
-      "Assisted team members with development setup, code debugging, and best practices while mentoring junior developers",
-      "Maintained and deployed React-based documentation website, upgrading the site from Webpack to Vite as part of DevOps responsibilities, reducing compile time from 20 minutes to 5 minutes",
-      "Built a website for a charity (Caleb's Trio of Hope) with a 3-person team using ploi.io, Laravel, Statamic, Tailwind, and Alpine"
+      "Created a CodePen-style editor using React that enabled non-technical users (product managers and designers) across the company to experiment with the entire design system and mockup components without setting up a development environment.",
+      "Developed CI/CD processes using GitHub Actions that automated bi-weekly deployments, enabled PR preview environments for documentation, and reduced component release time from a full day to 3 hours or less through semantic release automation to npm.",
+      "Maintained and deployed React-based documentation website, upgrading the site from Webpack to Vite, reducing compile time from 20 minutes to 5 minutes.",
+      "Assisted team members with development setup, code debugging, and best practices while mentoring junior developers."
     ],
     "published": true
   },
@@ -38,12 +36,10 @@
     "end": "Mar 2022",
     "overview": "Established a complete development workflow from the ground up, selecting server environments and frameworks to optimize team productivity. This approach enabled automated deployment processes using Vapor or Forge to cloud providers including AWS and Digital Ocean. The technology stack included Laravel, PHP, Vue, SCSS, Tailwind, Livewire, Alpine, Nova, Statamic, and WordPress. Collaborated closely with the design team to translate creative vision into functional web experiences, utilizing available tools to create fast and enjoyable user experiences.",
     "bullets": [
-      "Built fast and responsive front-end code",
-      "Coded and maintained backend systems",
-      "Managed server environments and development pipelines",
-      "Provided regular maintenance including legacy Angular code",
-      "Designed and prototyped UX/UI using CodePen and Adobe Illustrator",
-      "Conducted pair programming and local environment onboarding"
+      "Established automated development workflow using Laravel Forge and GitHub that enabled one-click deployments and database migrations through pull requests, migrating the entire local git system to GitHub.",
+      "Built fast and responsive front-end code and maintained backend systems.",
+      "Managed server environments and development pipelines.",
+      "Designed and prototyped UX/UI using CodePen and Adobe Illustrator."
     ],
     "published": true
   },
