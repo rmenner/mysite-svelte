@@ -21,10 +21,10 @@
   
     <div class="space-y-6 font-light dark:font-normal text-gray-600 dark:text-gray-100 leading-relaxed tracking-wide">
 
-      <ul class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-2 lg:max-w-none">
-        {#each publishedProjects as { title, url, image, tech, tag }, i}
-        <li>
-          <a href="{url}" target="_blank" rel="nofollow" class="flex flex-col rounded-lg shadow-lg overflow-hidden border-2 border-b-0 group dark:border-neutral-950">
+      <ul class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-2 lg:max-w-none lg:auto-rows-fr">
+        {#each publishedProjects as { title, url, image, tech, tag, description }, i}
+        <li class="flex">
+          <a href="{url}" target="_blank" rel="nofollow" class="flex flex-col rounded-lg shadow-lg overflow-hidden border-2 border-b-0 group dark:border-neutral-950 w-full">
           <div class="flex-shrink-0 relative z-0">
             <span class="text-sm font-medium text-white bg-teal-700 rounded p-2 absolute right-5 top-5 shadow z-10">
               {tag}
@@ -41,6 +41,9 @@
                 </p>
                 <p class="mt-3 text-sm text-gray-600 dark:text-gray-100">
                   {tech}
+                </p>
+                <p class="mt-3 text-sm text-gray-600 dark:text-gray-100">
+                  {description}
                 </p>
               </div>
             </div>

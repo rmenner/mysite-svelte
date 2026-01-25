@@ -5,7 +5,8 @@
     "image": "/images/projects/auro.jpg",
     "tech": "Lit, SCSS, Rollup, Turbo, Auro CLI",
     "tag": "Component Library",
-    "published": true
+    "published": true,
+    "description": "Enterprise design system for Alaska Airlines featuring accessible web components, design tokens, and developer tooling with contributions to component development and CI/CD workflows."
   },
   {
     "title": "C.K. Slorra",
@@ -13,7 +14,8 @@
     "image": "/images/projects/ckslorra.jpg",
     "tech": "Svelte, Tina CMS, Skeleton UI, Tailwind",
     "tag": "Website",
-    "published": true
+    "published": true,
+    "description": "Built book review website with integrated CMS, filtering and search functionality, store listings, downloadable content section, and contact forms."
   },
   {
     "title": "Trevetts",
@@ -21,7 +23,8 @@
     "image": "/images/projects/trevetts.jpg",
     "tech": "Laravel, Statamic, Livewire, Alpine, Tailwind",
     "tag": "Website",
-    "published": true
+    "published": true,
+    "description": "Developed dynamic portfolio showcase with custom CMS integration and interactive project filtering."
   },
   {
     "title": "Brewer Insurance",
@@ -29,7 +32,8 @@
     "image": "/images/projects/brewer-insurance.jpg",
     "tech": "Laravel, Nova, Vue, Tailwind",
     "tag": "Website",
-    "published": true
+    "published": true,
+    "description": "Developed responsive frontend with interactive course pages and student resource sections."
   },
   {
     "title": "3-column preview card",
@@ -45,7 +49,8 @@
     "image": "/images/projects/fire-truck-pull.jpg",
     "tech": "Laravel, Nova, Vue, Tailwind",
     "tag": "App",
-    "published": true
+    "published": true,
+    "description": "Developed responsive frontend for fundraising event platform with interactive team registration forms, donation tracking, and real-time event updates."
   },
   {
     "title": "FAQ accordion card",
@@ -61,7 +66,8 @@
     "image": "/images/projects/focused-living.jpg",
     "tech": "Laravel, Nova, Vue, Tailwind",
     "tag": "Website",
-    "published": true
+    "published": true,
+    "description": "Built responsive frontend with custom layouts for blog content, resource library browsing, and coaching service pages."
   },
   {
     "title": "Muscle & Strength",
@@ -69,7 +75,8 @@
     "image": "/images/projects/mands.jpg",
     "tech": "Drupal, Magento, Sass, jQuery",
     "tag": "Website",
-    "published": true
+    "published": true,
+    "description": "Redesigned and coded 30+ responsive page templates including checkout system, product pages, and article layouts for e-commerce platform."
   },
   {
     "title": "FPCS",
@@ -77,6 +84,7 @@
     "image": "/images/projects/fpcs.jpg",
     "tech": "Wordpress, Elementor",
     "tag": "Website",
-    "published": true
+    "published": true,
+    "description": "Built responsive website with custom forms for foster care applications, therapy referrals, and multi-location contact information."
   }
 ]
