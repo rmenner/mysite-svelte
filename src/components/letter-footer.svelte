@@ -13,7 +13,7 @@
 </script>
 
 <footer>
-  <div class="text-base leading-6 {isPdfMode ? 'text-gray-900' : 'text-gray-700 dark:text-gray-300'}">
+  <div class="text-sm leading-6 {isPdfMode ? 'text-gray-900' : 'text-gray-700 dark:text-gray-300'}">
     <div class="mb-8">
       <div class="font-medium">{safeContactInfo.name}</div>
     </div>

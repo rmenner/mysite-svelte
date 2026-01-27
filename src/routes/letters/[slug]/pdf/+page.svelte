@@ -32,7 +32,7 @@
     </header>
 
     <!-- Letter Content -->
-    <main class="prose prose-gray max-w-none
+    <main class="prose text-sm prose-gray max-w-none
                 prose-headings:text-gray-900 prose-headings:font-semibold
                 prose-p:text-gray-800 prose-p:leading-relaxed
                 prose-strong:text-gray-900 prose-strong:font-semibold
