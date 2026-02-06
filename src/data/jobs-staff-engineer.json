@@ -1,0 +1,156 @@
+[
+  {
+    "company": "Alaska Air",
+    "location": "Remote",
+    "title": "Senior Design Systems Engineer - Contract",
+    "start": "Oct 2024",
+    "end": "Current",
+    "overview": "Contributed to the development and maintenance of the Auro Design System, Alaska Airlines' digital component library designed to create consistent user experiences across their websites and applications.\n\nThe technology stack includes web components via Lit, design tokens, auro-cli, GitHub Actions, and Storybook/Chromatic. Responsibilities focused on improving build tools, streamlining deployment processes, and enhancing developer experience with component usage.",
+    "bullets": [
+      "Configured Storybook to integrate with custom element manifest, enabling automatic population of interactive controls for props, methods, slots, and CSS properties, eliminating manual argTypes configuration and establishing foundation for future React and Svelte framework wrappers.",
+      "Developed automation system using auro-cli that reduced release cycle time by 80% across 20+ component repositories, decreasing deployment time from a full sprint to just a few days while implementing GitHub Actions workflows and semantic release for automated versioning.",
+      "Updated documentation and code structure to help new developers get started faster and use components more effectively."
+    ],
+    "published": true
+  },
+  {
+    "company": "E*TRADE from Morgan Stanley",
+    "location": "Remote",
+    "title": "Senior UI Engineer - Contract",
+    "start": "March 2022",
+    "end": "Oct 2024",
+    "overview": "Developed an accessible and framework-agnostic design system for data-dense user experiences. The technology stack included web components via Stencil, design tokens, Storybook, and Figma. Responsibilities included writing documentation, assisting development teams with onboarding, and debugging issues when implementing components in React or Angular frameworks.",
+    "bullets": [
+      "Created a CodePen-style editor using React that enabled non-technical users (product managers and designers) across the company to experiment with the entire design system and mockup components without setting up a development environment.",
+      "Developed CI/CD processes using GitHub Actions that automated bi-weekly deployments, enabled PR preview environments for documentation, and reduced component release time from a full day to 3 hours or less through semantic release automation to npm.",
+      "Maintained and deployed React-based documentation website, upgrading the site from Webpack to Vite, reducing compile time from 20 minutes to 5 minutes.",
+      "Assisted team members with development setup, code debugging, and best practices while mentoring junior developers."
+    ],
+    "published": true
+  },
+  {
+    "company": "Trevetts/Creative+",
+    "location": "Columbia, SC",
+    "title": "Senior Full-Stack Developer",
+    "start": "Feb 2019",
+    "end": "Mar 2022",
+    "overview": "Established a complete development workflow from the ground up, selecting server environments and frameworks to optimize team productivity. This approach enabled automated deployment processes using Vapor or Forge to cloud providers including AWS and Digital Ocean. The technology stack included Laravel, PHP, Vue, SCSS, Tailwind, Livewire, Alpine, Nova, Statamic, and WordPress. Collaborated closely with the design team to translate creative vision into functional web experiences, utilizing available tools to create fast and enjoyable user experiences.",
+    "bullets": [
+      "Established automated development workflow using Laravel Forge and GitHub that enabled one-click deployments and database migrations through pull requests, migrating the entire local git system to GitHub.",
+      "Built fast and responsive front-end code and maintained backend systems.",
+      "Managed server environments and development pipelines.",
+      "Designed and prototyped UX/UI using CodePen and Adobe Illustrator."
+    ],
+    "published": true
+  },
+  {
+    "company": "LoudDoor",
+    "location": "Columbia, SC",
+    "title": "Full Stack Developer & Designer",
+    "start": "Sep 2017",
+    "end": "Jan 2019",
+    "overview": "Designed and developed comprehensive digital solutions ranging from advertising materials to web applications. Managed project creative direction from conception through final product delivery, ensuring that every detail of the user experience was tailored to exceed target audience expectations. The primary technology stack consisted of Laravel, Vue.js, and SASS.",
+    "bullets": [
+      "Design and develop responsive web solutions",
+      "Test, analyze, and improve the user experience",
+      "Create high converting advertising media",
+      "Maintain and improve existing web apps"
+    ],
+    "published": true
+  },
+  {
+    "company": "Muscle & Strength",
+    "location": "Columbia, SC",
+    "title": "UI/UX Designer & Developer",
+    "start": "Apr 2014",
+    "end": "Sep 2017",
+    "overview": "Hired specifically by M&S to redesign their entire website making it completely responsive. This project included designing and coding everything from the checkout system to the way articles look. As the sole developer on this project I was directly responsible for site design and developing frontend code. This project was a gigantic undertaking consisting of 30+ page templates and thousands of pages of content and products that needed to be either re-designed or newly created to meet specific demands.",
+    "bullets": [
+      "Designed responsive page templates and marketing pages with Adobe Illustrator or Sketch.",
+      "Code responsive prototypes of designs in CodePen with static data.",
+      "Implement prototype code into Magento or Drupal CMS.",
+      "Assist store, content, and marketing teams with any custom CSS design work to format forms or special landing pages.",
+      "Design solutions to any UX issues reported by customer service.",
+      "Created custom graphics and icons using Photoshop and Illustrator.",
+      "Created SASS styles and jQuery functions to customize the responsive user experience."
+    ],
+    "published": true
+  },
+  {
+    "company": "LeeLocal",
+    "location": "Davenport, IA",
+    "title": "Frontend/Backend Web Developer",
+    "start": "Jul 2012",
+    "end": "Apr 2014",
+    "overview": "I was hired on to help with front end website design and CSS development. I learned WordPress CMS development on the job and quickly became the \"custom guy\" and assisted other team members with any technical difficulties.",
+    "bullets": [
+      "Custom WordPress templates and themes.",
+      "Setup a system for staging and deploying custom sites via Beanstalk and Rackspace.",
+      "Worked directly with clients to design them a website that meets their needs.",
+      "Trained clients how to update and manage their custom website."
+    ],
+    "published": false
+  },
+  {
+    "company": "Office Max",
+    "location": "San Antonio, TX - Moline, IL",
+    "title": "Impress Printing Associate",
+    "start": "Oct 2011",
+    "end": "Jun 2012",
+    "overview": "Worked with customers to print anything they needed. Also designed anything they may need from wedding invites to business cards.",
+    "bullets": [],
+    "published": false
+  },
+  {
+    "company": "CollegePlus!",
+    "location": "San Antonio, TX",
+    "title": "Lead Designer",
+    "start": "Jul 2010",
+    "end": "Sep 2011",
+    "overview": "Designed for the Marketing and Development departments. This included everything from landing pages to million-dollar marketing campaigns.",
+    "bullets": [
+      "Worked with development to create high converting landing pages.",
+      "Coded and designed marketing emails.",
+      "Created marketing videos including setting up the shoot, filming, and producing.",
+      "Assisted in basic office IT support."
+    ],
+    "published": false
+  },
+  {
+    "company": "Personal Marketing Research",
+    "location": "Davenport, IA",
+    "title": "Project Assistant",
+    "start": "Jan 2009",
+    "end": "Jan 2010",
+    "overview": "Manage survey data, quality control and call center reports. Development and Maintenance of company website. Managed all office equipment.",
+    "bullets": [],
+    "published": false
+  },
+  {
+    "company": "Stegmaier Photography",
+    "location": "Davenport, IA",
+    "title": "Lead Photographer",
+    "start": "Jan 2006",
+    "end": "Jan 2010",
+    "overview": "Advanced photo editing/retouching. Video editing. Solo wedding/event photography. Custom albums.",
+    "bullets": [],
+    "published": false
+  },
+  {
+    "company": "Moline High School",
+    "location": "Moline, IL",
+    "title": "Media Assistant",
+    "start": "Jan 2002",
+    "end": "Jan 2006",
+    "overview": "",
+    "bullets": [
+      "Newspaper - Editor-in-chief/Head artist - 2 years.",
+      "DVD productions for drama department.",
+      "Taught classes for \"Teen Tech Week\" Classes included Photoshop, iMovie, and Dreamweaver.",
+      "Websites for numerous departments.",
+      "Teacher's Aide.",
+      "Created 'MHS TV' - video announcement network."
+    ],
+    "published": false
+  }
+]
