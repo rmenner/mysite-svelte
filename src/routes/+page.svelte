@@ -4,10 +4,10 @@ import Page from '../components/page.svelte'
 
   const metadata = {
     page: {
-      title: 'Design. Prototype. Build.'
+      title: 'Your team deserves a design system that actually works.'
     },
 		title: 'Design. Prototype. Build.',
-		description: 'My mission, to create work that is both useful and beautiful.'
+		description: 'Frontend engineer specializing in design systems and component libraries that help teams ship faster and stay consistent.'
 	}
 
 </script>
@@ -17,13 +17,19 @@ import Page from '../components/page.svelte'
 
   <div class="space-y-6 text-lg font-light dark:font-normal text-gray-600 dark:text-gray-100 leading-relaxed tracking-wide">
 
-    <p class="text-2xl">
-      I transform how teams build digital experiences. Through scalable design systems, streamlined workflows, and accessible components, I empower developers and designers to create work that is both useful and beautiful. Work that reaches millions of users with consistency, performance, and purpose.
+    <p>
+      I'm known for closing the gap between design and engineering: building the systems, tools, and workflows that let both sides move fast without stepping on each other.
+    </p>
+
+    <p>
+      From Alaska Airlines to E*TRADE, I've helped teams reach millions of users with less friction, fewer bugs, and work they're proud of.
     </p>
 
     <h2 class="text-3xl pt-20 font-light dark:font-normal text-teal-700 dark:text-teal-300">Greetings</h2>
-    <p>My name is Ryan and I live in famously hot Columbia, South Carolina with my wife and two dogs. Outside of web development, you can find me working on home automation projects, managing home lab infrastructure, or building and flying FPV drones!.</p>
-    <p>I have been crafting responsive web experiences for over 10 years, with a deep focus on design systems and component libraries. I specialize in building accessible, framework-agnostic components that scale across teams and applications, from Alaska Airlines' Auro Design System to enterprise solutions at E*TRADE. My expertise spans the full design system lifecycle: from web components and build tooling to developer experience and team adoption. I love to learn new things and enjoy teaching others. If you need my help for a project or would like some coaching/mentorship, please feel free to reach out.</p>
+    <p>I live in famously hot Columbia, South Carolina, with my wife and two dogs. Off the clock, I'm still building things: home automation systems, home lab infrastructure, and FPV drones I fly myself.</p>
+    <p>The best design systems disappear. When the infrastructure works, your team stops thinking about it and starts shipping. That's what I've spent 10 years building toward.</p>
+    <p>I work across the full frontend lifecycle: from web components and build tooling to the developer experience and documentation that make adoption stick. At Alaska Airlines, I cut release cycle time by 80%. At E*TRADE, I helped move deploys from a full day to under 3 hours.</p>
+    <p>If you're scaling a design system, fixing one that isn't working, or need a frontend engineer who can go deep, reach out.</p>
 
     <div class="flex items-center justify-end pr-8 pt-12">
       <div class="mr-3 text-right leading-snug">
