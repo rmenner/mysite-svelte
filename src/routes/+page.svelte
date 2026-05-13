@@ -4,9 +4,9 @@ import Page from '../components/page.svelte'
 
   const metadata = {
     page: {
-      title: 'Your team deserves to build something they\'re proud of.'
+      title: 'Calm code. Obvious interfaces. Quiet releases.'
     },
-		title: 'Design. Prototype. Build.',
+		title: 'Frontend engineer who builds interfaces that feel obvious to use. I specialize in component architecture, CSS that scales, and JavaScript that ages well.',
 		description: 'Frontend engineer specializing in design systems and component libraries that help teams ship faster and stay consistent.'
 	}
 
@@ -18,18 +18,18 @@ import Page from '../components/page.svelte'
   <div class="space-y-6 text-lg font-light dark:font-normal text-gray-600 dark:text-gray-100 leading-relaxed tracking-wide">
 
     <p>
-      I keep design and engineering in sync by building the tooling that lets both teams ship.
+      Frontend engineer who builds interfaces that feel obvious to use. I specialize in component architecture, CSS that scales, and JavaScript that ages well.
     </p>
 
     <p>
-      The best outcome isn't a working design system. It's a team that built something useful and beautiful together.
+      The best design systems disappear. When the infrastructure works, your team stops thinking about it and starts shipping.
     </p>
 
     <h2 class="text-3xl pt-20 font-light dark:font-normal text-teal-700 dark:text-teal-300">Greetings</h2>
     <p>I live in famously hot Columbia, South Carolina, with my wife and two dogs. Off the clock, I'm still building things: home automation systems, home lab infrastructure, and FPV drones I fly myself.</p>
-    <p>What I love most is the moment a team stops fighting their tools and starts building. It starts with components that are accessible, well-documented, and ready for the edge cases. From there, the PR that used to take a week goes out in an hour. Someone finds what they need without asking.</p>
-    <p>I've spent the last few years at Alaska Airlines and E*TRADE making release day feel less like an event.</p>
-    <p>If you're building or fixing a design system, reach out.</p>
+    <p>The work I'm proudest of is the kind that disappears — the PR that used to take a week, the component someone finds without asking, the release that doesn't feel like an event.</p>
+    <p>Mentorship has been part of every team I've been on; being the go-to resource for design system questions is something I take seriously.</p>
+    <p>If you're scaling a design system, fixing one that isn't working, or need a frontend engineer who can go deep, reach out.</p>
 
     <div class="flex items-center justify-end pr-8 pt-12">
       <div class="mr-3 text-right leading-snug">
