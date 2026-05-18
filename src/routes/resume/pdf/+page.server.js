@@ -1,6 +1,8 @@
 import { error } from '@sveltejs/kit';
 import { dev } from '$app/environment';
 import dotenv from 'dotenv';
+import fs from 'node:fs/promises';
+import path from 'node:path';
 
 // Load environment variables
 dotenv.config();
@@ -23,6 +25,10 @@ export async function load({ request, url }) {
     throw error(403, 'Access restricted');
   }
   
+  const jobsFileName = process.env.RESUME_JOBS_FILE || 'jobs.json';
+  const jobsPath = path.resolve('src/data', jobsFileName);
+  const jobs = JSON.parse(await fs.readFile(jobsPath, 'utf-8'));
+
   return {
     isPdfMode: true,
     contactInfo: {
@@ -30,9 +36,10 @@ export async function load({ request, url }) {
       email: process.env.RESUME_EMAIL || 'your.email@example.com',
       phone: process.env.RESUME_PHONE || '(555) 123-4567',
       website: process.env.RESUME_WEBSITE || 'https://yourwebsite.com',
-      linkedin: process.env.RESUME_LINKEDIN || 'linkedin.com/in/yourprofile',
-      github: process.env.RESUME_GITHUB || 'github.com/yourusername'
+      linkedin: process.env.RESUME_LINKEDIN || 'linkedin.com/in/ryanmenner',
+      github: process.env.RESUME_GITHUB || 'github.com/rmenner'
     },
-    customOverview: process.env.RESUME_CUSTOM_OVERVIEW || null
+    customOverview: process.env.RESUME_CUSTOM_OVERVIEW || null,
+    jobs
   };
 }

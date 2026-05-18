@@ -6,7 +6,25 @@
     "tech": "Lit, SCSS, Rollup, Turbo, Auro CLI",
     "tag": "Component Library",
     "published": true,
-    "description": "Enterprise design system for Alaska Airlines featuring accessible web components, design tokens, and developer tooling with contributions to component development and CI/CD workflows."
+    "description": "Enterprise design system for Alaska Airlines: accessible Lit web components, design tokens, and framework-agnostic distribution across the company's digital products."
+  },
+  {
+    "title": "Auro CLI",
+    "url": "https://github.com/AlaskaAirlines/auro-cli",
+    "image": "/images/projects/auro-cli.png",
+    "tech": "Node.js, TypeScript, Rollup, Commander, multi-gitter, GitHub Actions",
+    "tag": "Developer Tool",
+    "published": true,
+    "description": "Developer platform for the Auro design system that centralizes build, dev, docs, and release tooling across 30+ component repos. Includes commands for cross-repo code migration, CEM-based documentation, semantic-commit analysis, and per-PR npm preview releases."
+  },
+  {
+    "title": "Campfire Design System",
+    "url": "https://campfire.design/",
+    "image": "/images/projects/campfire-design.png",
+    "tech": "Stencil, Storybook, Design Tokens, Figma, React, Angular",
+    "tag": "Design System",
+    "published": true,
+    "description": "Morgan Stanley's firmwide design system. Worked on Enterprise, the track for primarily internal or professional-facing, data-dense, workflow-heavy web experiences. Stencil web components consumed across React and Angular apps with shared design tokens."
   },
   {
     "title": "C.K. Slorra",

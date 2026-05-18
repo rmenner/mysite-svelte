@@ -5,11 +5,12 @@
     "title": "Senior Design Systems Engineer - Contract",
     "start": "Oct 2024",
     "end": "Current",
-    "overview": "Contributed to the development and maintenance of the Auro Design System, Alaska Airlines' digital component library designed to create consistent user experiences across their websites and applications.\n\nThe technology stack includes web components via Lit, design tokens, auro-cli, GitHub Actions, and Storybook/Chromatic. Responsibilities focused on improving build tools, streamlining deployment processes, and enhancing developer experience with component usage.",
+    "overview": "Worked on Auro, Alaska Airlines' Lit-based component library used across the company's digital products. Both component work across the library and the platform that ships it underneath.",
     "bullets": [
-      "Configured Storybook to integrate with custom element manifest, enabling automatic population of interactive controls for props, methods, slots, and CSS properties, eliminating manual argTypes configuration and establishing foundation for future React and Svelte framework wrappers.",
-      "Developed automation system using auro-cli that reduced release cycle time by 80% across 20+ component repositories, decreasing deployment time from a full sprint to just a few days while implementing GitHub Actions workflows and semantic release for automated versioning.",
-      "Updated documentation and code structure to help new developers get started faster and use components more effectively."
+      "Configured Storybook to read each component's custom element manifest, populating the interactive controls panel automatically for every new component and laying the groundwork for generating React and Svelte wrappers.",
+      "Created auro-cli to centralize Auro's build and dev tooling across 30+ component repos, with commands for cross-repo migrations, CEM-based docs generation, dependency-aware batching, and semantic-commit analysis.",
+      "Added React and Svelte framework integration test apps for the form components, validating them in the frameworks consumers ship with.",
+      "Designed Auro's release gitflow so every component PR ships a versioned npm preview build for consumer apps to test before merge."
     ],
     "published": true
   },
@@ -19,12 +20,13 @@
     "title": "Senior UI Engineer - Contract",
     "start": "March 2022",
     "end": "Oct 2024",
-    "overview": "Developed an accessible and framework-agnostic design system for data-dense user experiences. The technology stack included web components via Stencil, design tokens, Storybook, and Figma. Responsibilities included writing documentation, assisting development teams with onboarding, and debugging issues when implementing components in React or Angular frameworks.",
+    "overview": "Worked on Campfire Enterprise, Morgan Stanley's design system track for data-dense, workflow-heavy web experiences. Both component work and the documentation, playgrounds, and release tooling around it.",
     "bullets": [
-      "Created a CodePen-style editor using React that enabled non-technical users (product managers and designers) across the company to experiment with the entire design system and mockup components without setting up a development environment.",
-      "Developed CI/CD processes using GitHub Actions that automated bi-weekly deployments, enabled PR preview environments for documentation, and reduced component release time from a full day to 3 hours or less through semantic release automation to npm.",
-      "Maintained and deployed React-based documentation website, upgrading the site from Webpack to Vite, reducing compile time from 20 minutes to 5 minutes.",
-      "Assisted team members with development setup, code debugging, and best practices while mentoring junior developers."
+      "Built a CodePen-style playground in React that let designers and product managers prototype with the live design system, no dev environment required.",
+      "Cut component release time from a full day to under 3 hours by automating npm publishing with semantic-release and GitHub Actions.",
+      "Set up bi-weekly automated deployments and PR preview environments for the documentation site.",
+      "Migrated the React documentation site from Webpack to Vite, cutting compile time from 20 minutes to 5.",
+      "Supported React and Angular consumer teams through design system integration, and mentored junior engineers along the way."
     ],
     "published": true
   },
@@ -34,12 +36,10 @@
     "title": "Senior Full-Stack Developer",
     "start": "Feb 2019",
     "end": "Mar 2022",
-    "overview": "Established a complete development workflow from the ground up, selecting server environments and frameworks to optimize team productivity. This approach enabled automated deployment processes using Vapor or Forge to cloud providers including AWS and Digital Ocean. The technology stack included Laravel, PHP, Vue, SCSS, Tailwind, Livewire, Alpine, Nova, Statamic, and WordPress. Collaborated closely with the design team to translate creative vision into functional web experiences, utilizing available tools to create fast and enjoyable user experiences.",
+    "overview": "Frontend developer at a design-driven agency. Shipped Laravel-based sites alongside the design team and built the deployment workflow underneath.",
     "bullets": [
-      "Established automated development workflow using Laravel Forge and GitHub that enabled one-click deployments and database migrations through pull requests, migrating the entire local git system to GitHub.",
-      "Built fast and responsive front-end code and maintained backend systems.",
-      "Managed server environments and development pipelines.",
-      "Designed and prototyped UX/UI using CodePen and Adobe Illustrator."
+      "Built an automated deployment workflow with Laravel Forge and GitHub that shipped code and ran database migrations on PR merge.",
+      "Designed and prototyped UI in Illustrator and CodePen so the design team could see and react to interactions before they shipped."
     ],
     "published": true
   },

@@ -1,17 +1,19 @@
 <script>
   import { marked } from 'marked';
-  import jobs from '$data/jobs.json';
   import overview from '$data/skills.json';
   import resume from '$data/resume.yml';
-  
+
   export let data;
-  
+
   // Use contact info from server-side load
   const contactInfo = data.contactInfo;
-  
+
   // Custom overview (if provided) or default
   const customOverview = data.customOverview;
-  
+
+  // Jobs come from server-side load (file selected by RESUME_JOBS_FILE env var)
+  $: jobs = data.jobs;
+
   // Filter to show only published jobs
   $: publishedJobs = jobs.filter(job => job.published === true);
 

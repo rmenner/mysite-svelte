@@ -74,9 +74,9 @@ export async function load({ params, request, url }) {
         name: process.env.RESUME_NAME || 'Your Name',
         email: process.env.RESUME_EMAIL || 'your.email@example.com',
         phone: process.env.RESUME_PHONE || '(555) 123-4567',
-        website: process.env.RESUME_WEBSITE || 'https://yourwebsite.com',
-        linkedin: process.env.RESUME_LINKEDIN || 'linkedin.com/in/yourprofile',
-        github: process.env.RESUME_GITHUB || 'github.com/yourusername'
+        website: process.env.RESUME_WEBSITE || 'https://ryanmenner.com',
+        linkedin: process.env.RESUME_LINKEDIN || 'linkedin.com/in/ryanmenner',
+        github: process.env.RESUME_GITHUB || 'github.com/rmenner'
       }
     };
   } catch (err) {

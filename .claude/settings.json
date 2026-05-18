@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Bash(gh help *)",
+      "Bash(gh view *)",
+      "Bash(gh list *)",
+      "Bash(gh api *)"
+    ]
+  }
+}

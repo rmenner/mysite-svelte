@@ -2,7 +2,7 @@
   {
     "company": "Alaska Air",
     "location": "Remote",
-    "title": "Senior Software Engineer - Contract",
+    "title": "Senior Design Engineer - Contract",
     "start": "Oct 2024",
     "end": "Current",
     "overview": "Worked on Auro, Alaska Airlines' Lit-based component library used across the company's digital products. Both component work across the library and the platform that ships it underneath.",
@@ -17,7 +17,7 @@
   {
     "company": "E*TRADE from Morgan Stanley",
     "location": "Remote",
-    "title": "UI Engineer - Contract",
+    "title": "Senior Design Engineer - Contract",
     "start": "March 2022",
     "end": "Oct 2024",
     "overview": "Worked on Campfire Enterprise, Morgan Stanley's design system track for data-dense, workflow-heavy web experiences. Both component work and the documentation, playgrounds, and release tooling around it.",
@@ -33,7 +33,7 @@
   {
     "company": "Trevetts/Creative+",
     "location": "Columbia, SC",
-    "title": "Frontend Developer",
+    "title": "Senior Full-Stack Developer",
     "start": "Feb 2019",
     "end": "Mar 2022",
     "overview": "Frontend developer at a design-driven agency. Shipped Laravel-based sites alongside the design team and built the deployment workflow underneath.",
