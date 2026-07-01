@@ -7,7 +7,9 @@
     "package": "vite package",
     "preview": "vite preview",
     "pdf": "node scripts/generate-resume-pdf.js",
-    "pdf:letter": "node scripts/generate-resume-pdf.js letter"
+    "pdf:ats": "node scripts/generate-resume-pdf.js ats",
+    "pdf:letter": "node scripts/generate-resume-pdf.js letter",
+    "grade": "node scripts/grade-resume.js"
   },
   "devDependencies": {
     "@modyfi/vite-plugin-yaml": "^1.1.1",

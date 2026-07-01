@@ -13,10 +13,17 @@
     "title": "Tools",
     "list": [
       "Adobe, Sketch, Figma, CodePen",
-      "VsCode, PhpStorm, Navicat",
+      "VS Code, PhpStorm, Navicat",
       "Homebrew, Yarn, Composer, Valet",
       "Vagrant, Docker, Forge, Vapor",
-      "Clickup, Trello, Github, Jira, Azure"
+      "ClickUp, Trello, GitHub, Jira, Azure"
+    ],
+    "resumeList": [
+      "Adobe, Sketch, Figma, CodePen",
+      "VS Code, PhpStorm, Navicat",
+      "Yarn, Composer, Valet",
+      "Vagrant, Docker, Forge, Vapor",
+      "GitHub, Jira, Azure"
     ]
   },
   {
@@ -28,7 +35,7 @@
       "React, Vue, Alpine, Svelte",
       "Laravel, Livewire",
       "Web Components, Stencil, Lit",
-      "Github Actions, Bash, CI/CD"
+      "GitHub Actions, Bash, CI/CD"
     ]
   },
   {
@@ -39,7 +46,7 @@
       "Mediation/conflict resolution and empathy in tough situations",
       "Passionate about mentorship and team development",
       "Mindful of over-engineering and wasteful development practices"
-    ]
+    ],
+    "resume": false
   }
 ]
-

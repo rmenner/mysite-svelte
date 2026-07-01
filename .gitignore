@@ -12,3 +12,9 @@ node_modules
 # Letter management
 /letters
 /letters-pdf
+
+# playwright-cli artifacts (snapshots, screenshots)
+/.playwright-cli
+
+# Local resume review harness (model outputs, contact info)
+/resume-review

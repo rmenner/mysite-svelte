@@ -1,2 +1,7 @@
-overview: |
-  Frontend engineer who builds interfaces that feel obvious to use. I specialize in component architecture, CSS that scales, and JavaScript that ages well. At E*TRADE, I was part of the team building accessible web components for data-dense financial interfaces and built a React sandbox that let non-technical stakeholders prototype with the full design system. At Alaska Airlines, I automated a manual, repo-by-repo release process across 20+ repositories. 10+ years across React, Vue, Svelte, and CSS.
+# Headline, summary, and per-role experience live in src/data/roles/*.json; skills
+# live in src/data/skills.json (one curated set, shared across all channels). This
+# file only holds education, shown on the fancy + ats PDFs (not the website).
+education:
+  - school: Black Hawk College
+    detail: "Coursework in Web Development, Computer Information Systems, and Graphic Design."
+    years: 2008 to 2010

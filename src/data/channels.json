@@ -1,0 +1,5 @@
+{
+  "web":   { "endLabel": "Current" },
+  "fancy": { "endLabel": "Present" },
+  "ats":   { "endLabel": "Present" }
+}

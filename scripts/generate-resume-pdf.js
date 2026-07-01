@@ -1,4 +1,5 @@
 import fs from 'fs';
+import os from 'os';
 import path from 'path';
 import puppeteer from 'puppeteer';
 import { fileURLToPath } from 'url';
@@ -9,25 +10,33 @@ const rootDir = path.resolve(__dirname, '..');
 async function main() {
     const args = process.argv.slice(2);
     
-    // Parse arguments
+    // Parse arguments. --target=<role> selects a resume role variant for the
+    // resume/ats channels (e.g. --target=ui-engineer); ignored for letters.
     let type = 'resume';
     let slug = null;
-    
-    if (args.length > 0) {
-        if (args[0] === 'letter' || args[0] === 'letters') {
+    const targetArg = args.find((a) => a.startsWith('--target='));
+    const target = targetArg ? targetArg.split('=')[1] : null;
+    const positional = args.filter((a) => !a.startsWith('--'));
+
+    if (positional.length > 0) {
+        if (positional[0] === 'ats') {
+            type = 'ats';
+        } else if (positional[0] === 'letter' || positional[0] === 'letters') {
             type = 'letter';
-            slug = args[1];
+            slug = positional[1];
             if (!slug) {
                 console.error('Usage: node scripts/generate-resume-pdf.js letter <letter-slug>');
                 console.error('Example: node scripts/generate-resume-pdf.js letter ramp-2025');
                 process.exit(1);
             }
-        } else if (args[0] !== 'resume') {
+        } else if (positional[0] !== 'resume') {
             // Assume first arg is a letter slug if it's not 'resume'
             type = 'letter';
-            slug = args[0];
+            slug = positional[0];
         }
     }
+
+    const targetQuery = target ? `?target=${encodeURIComponent(target)}` : '';
     
     try {
         // Check if dev server is running
@@ -46,8 +55,11 @@ async function main() {
         let url, outputPath, outputDir;
         
         if (type === 'resume') {
-            url = 'http://localhost:5173/resume/pdf';
-            outputPath = path.join(rootDir, `resume-${new Date().getFullYear()}.pdf`);
+            url = `http://localhost:5173/resume/fancy${targetQuery}`;
+            outputPath = path.join(os.homedir(), `resume-${new Date().getFullYear()}.pdf`);
+        } else if (type === 'ats') {
+            url = `http://localhost:5173/resume/ats${targetQuery}`;
+            outputPath = path.join(os.homedir(), `resume-ats-${new Date().getFullYear()}.pdf`);
         } else {
             url = `http://localhost:5173/letters/${slug}/pdf`;
             outputDir = path.join(rootDir, 'letters-pdf');
@@ -58,14 +70,15 @@ async function main() {
         }
         
         await page.goto(url, { waitUntil: 'networkidle0' });
+        await page.evaluateHandle('document.fonts.ready');
         
         await page.pdf({
             path: outputPath,
             format: 'Letter',
-            margin: type === 'resume' 
+            margin: (type === 'resume' || type === 'ats')
                 ? { top: '0.3in', bottom: '0.3in', left: '0.3in', right: '0.3in' }
                 : { top: '0.75in', bottom: '0.75in', left: '0.75in', right: '0.75in' },
-            printBackground: false
+            printBackground: true
         });
         
         await browser.close();

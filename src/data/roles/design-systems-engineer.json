@@ -1,0 +1,36 @@
+{
+  "id": "design-systems-engineer",
+  "label": "Design Systems Engineer",
+  "headline": "Senior Frontend / Design Systems Engineer",
+  "summary": "Senior frontend and design systems engineer with 10+ years building enterprise component libraries and their supporting platforms. Expertise spans accessible component engineering, design tokens, documentation, framework integrations, and release automation.",
+  "print": {
+    "experience": [
+      { "ref": "alaska", "summary": "default", "bullets": ["auro-cli", "oidc", "form-adoption", "cem"] },
+      { "ref": "etrade", "summary": "default", "bullets": ["components", "release-cycle", "vite-docs", "playground", "doc-deploy", "integration"] },
+      { "ref": "trevetts", "summary": "default", "bullets": ["forge", "frontend", "prototype"] },
+      { "ref": "louddoor", "bullets": ["fullstack"] },
+      { "ref": "muscle-strength", "bullets": ["redesign"] },
+      { "ref": "leelocal" }
+    ]
+  },
+  "fancy": {
+    "experience": [
+      { "ref": "alaska", "bullets": ["auro-cli", "oidc", "cem"] },
+      { "ref": "etrade", "bullets": ["components", "release-cycle", "vite-docs", "playground"] },
+      { "ref": "trevetts", "bullets": ["forge", "frontend", "prototype"] },
+      { "ref": "louddoor" },
+      { "ref": "muscle-strength" },
+      { "ref": "leelocal" }
+    ]
+  },
+  "web": {
+    "summary": "Currently a Senior Software Engineer at Alaska Airlines on the Auro design system. Previously on Morgan Stanley's Campfire design system. The work I'm proudest of is the quiet kind: an interface that gets out of your way, a component someone finds without asking, or a release that doesn't feel like an event. The best design systems disappear. My current work sits across these areas: component libraries, accessibility, documentation, and the release tooling around them.",
+    "experience": [
+      { "ref": "alaska", "summary": "default", "bullets": ["auro-cli", "oidc", "cem"] },
+      { "ref": "etrade", "summary": "default", "bullets": ["components", "release-cycle", "vite-docs", "playground", "doc-deploy", "integration"] },
+      { "ref": "trevetts", "summary": "default", "bullets": ["forge", "prototype"] },
+      { "ref": "louddoor", "summary": "web", "bullets": ["responsive", "ux", "ads", "maintain"] },
+      { "ref": "muscle-strength", "summary": "web", "bullets": ["templates", "prototypes", "cms-impl", "custom-css", "ux-fixes", "graphics", "sass-jquery"] }
+    ]
+  }
+}

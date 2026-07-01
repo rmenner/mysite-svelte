@@ -1,0 +1,22 @@
+[
+  {
+    "id": "design-systems",
+    "title": "Design Systems",
+    "items": ["Component libraries", "Design tokens", "Theming", "Storybook", "Custom Element Manifest (CEM)", "Web Components", "Lit", "Stencil", "Accessibility (WCAG, ARIA)"]
+  },
+  {
+    "id": "frontend",
+    "title": "Frontend",
+    "items": ["TypeScript", "JavaScript", "React", "Svelte", "Sass", "Tailwind CSS"]
+  },
+  {
+    "id": "tooling",
+    "title": "Tooling & CI/CD",
+    "items": ["Node.js", "GitHub Actions", "semantic-release", "Vite", "Preview deployments", "Visual regression testing", "Docker"]
+  },
+  {
+    "id": "backend",
+    "title": "Backend",
+    "items": ["PHP", "Laravel", "MySQL"]
+  }
+]

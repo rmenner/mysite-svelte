@@ -14,6 +14,9 @@
   $: if ($page.url.pathname) {
     open = false;
   }
+
+  $: isResumePreview =
+    $page.url.pathname === '/resume/fancy' || $page.url.pathname === '/resume/ats';
 </script>
   
   
@@ -28,8 +31,8 @@
       </svg>
     </button>
   </div>
-  <main class="flex-1 flex items-center pt-28 lg:pt-12 print:pt-0 print:lg:pt-0">
-    <div class="py-12 w-full print:py-0">
+  <main class="flex-1 flex items-center {isResumePreview ? 'pt-0 lg:pt-0' : 'pt-28 lg:pt-12'} print:pt-0 print:lg:pt-0">
+    <div class="{isResumePreview ? 'py-4' : 'py-12'} w-full print:py-0">
 
       <slot />
         

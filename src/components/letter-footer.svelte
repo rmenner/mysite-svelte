@@ -20,9 +20,9 @@
     <div>
       <div class="font-medium mb-1">P.S.</div>
       <div>
-        My full work history and more information{#if isPdfMode}<br>{:else} {/if}about me can be found on my website 
-        <a 
-          href="{safeContactInfo.website}" 
+        Full work history at
+        <a
+          href="{safeContactInfo.website}"
           class="{isPdfMode ? 'text-blue-600 no-underline' : 'text-teal-600 dark:text-teal-400 hover:underline'} font-medium"
         >
           {safeContactInfo.website.replace('https://', '').replace('http://', '')}

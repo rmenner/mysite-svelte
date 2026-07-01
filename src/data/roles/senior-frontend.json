@@ -1,0 +1,26 @@
+{
+  "id": "senior-frontend",
+  "label": "Senior Frontend",
+  "headline": "Senior Frontend Engineer",
+  "summary": "Frontend engineer with 10+ years building web and product interfaces, now focused on accessible, reusable component systems and the experience of building with them.",
+  "print": {
+    "experience": [
+      { "ref": "alaska", "summary": "default", "bullets": ["auro-cli", "cem", "oidc"] },
+      { "ref": "etrade", "summary": "default", "bullets": ["components", "playground", "vite-docs", "release-cycle", "doc-deploy", "integration"] },
+      { "ref": "trevetts", "summary": "default", "bullets": ["prototype", "forge", "frontend"] },
+      { "ref": "louddoor", "bullets": ["fullstack"] },
+      { "ref": "muscle-strength", "bullets": ["redesign"] },
+      { "ref": "leelocal" }
+    ]
+  },
+  "fancy": {
+    "experience": [
+      { "ref": "alaska", "bullets": ["auro-cli", "cem", "oidc"] },
+      { "ref": "etrade", "bullets": ["components", "playground", "vite-docs", "release-cycle"] },
+      { "ref": "trevetts", "bullets": ["prototype", "forge", "frontend"] },
+      { "ref": "louddoor" },
+      { "ref": "muscle-strength" },
+      { "ref": "leelocal" }
+    ]
+  }
+}

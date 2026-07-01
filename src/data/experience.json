@@ -1,0 +1,110 @@
+[
+  {
+    "id": "alaska",
+    "company": "Alaska Airlines",
+    "location": "Remote",
+    "title": "Senior Software Engineer - Contract",
+    "start": "Oct 2024",
+    "end": "Current",
+    "summaries": {
+      "default": "Worked on Auro, Alaska Airlines' Lit-based component library used across the company's digital products. Both component work across the library and the platform that ships it underneath."
+    },
+    "bullets": [
+      { "id": "auro-cli", "text": "Architected and built most of auro-cli, the standard TypeScript and Node.js build and release tooling for Auro, Alaska Airlines' Lit-based design system, adopted across all 30+ of its component packages and delivered as 12 reusable commands." },
+      { "id": "oidc", "text": "Migrated dozens of Auro packages to OIDC trusted publishing, standardizing CI and automating semantic-commit analysis, release notes, and PR preview publishing." },
+      { "id": "cem", "text": "Established each component's Custom Element Manifest as the source of truth for generated API documentation and React and Svelte wrapper metadata." },
+      { "id": "form-adoption", "text": "Hardened Auro's form-control components, resolving combobox lifecycle and cross-browser dialog bugs in the form library now used across 50+ internal Alaska applications." }
+    ]
+  },
+  {
+    "id": "etrade",
+    "company": "E*TRADE from Morgan Stanley",
+    "location": "Remote",
+    "title": "UI Engineer - Contract",
+    "start": "Mar 2022",
+    "end": "Oct 2024",
+    "summaries": {
+      "default": "Worked on Campfire Enterprise, Morgan Stanley's design system track for data-dense, workflow-heavy web experiences. Both component work and the documentation, playgrounds, and release tooling around it."
+    },
+    "bullets": [
+      { "id": "components", "text": "Led development of data-dense UI components for Campfire Enterprise, Morgan Stanley's design system, delivered as Web Components for React and Angular consumers." },
+      { "id": "release-cycle", "text": "Reduced component release cycle time by more than 60%, from a full day to under 3 hours, by automating npm publishing with semantic-release and GitHub Actions." },
+      { "id": "vite-docs", "text": "Cut documentation site compile time by 75%, from 20 minutes to 5 minutes, by migrating the React documentation site from Webpack to Vite." },
+      { "id": "playground", "text": "Shipped a React playground for designers and product managers to evaluate live Campfire components without a local development environment." },
+      { "id": "doc-deploy", "text": "Automated documentation-site deployments every two weeks and created PR preview environments for review before release." },
+      { "id": "integration", "text": "Resolved Campfire integration issues for React and Angular consumer teams and mentored junior engineers." }
+    ]
+  },
+  {
+    "id": "trevetts",
+    "company": "Trevetts/Creative+",
+    "location": "Columbia, SC",
+    "title": "Frontend Developer",
+    "start": "Feb 2019",
+    "end": "Mar 2022",
+    "summaries": {
+      "default": "Frontend developer at a design-driven agency. Shipped Laravel-based sites alongside the design team and built the deployment workflow underneath."
+    },
+    "bullets": [
+      { "id": "forge", "text": "Streamlined client-site deployments with a GitHub and Laravel Forge workflow that shipped code and ran database migrations on pull-request merge." },
+      { "id": "frontend", "text": "Delivered reusable features across 20+ agency client sites and web applications in Laravel and Statamic, including a CMS page builder and Meilisearch-powered site search." },
+      { "id": "prototype", "text": "Designed and prototyped interactions in Illustrator and CodePen so the design team could evaluate them before implementation." }
+    ]
+  },
+  {
+    "id": "louddoor",
+    "company": "LoudDoor",
+    "location": "Columbia, SC",
+    "title": "Full Stack Developer & Designer",
+    "start": "Sep 2017",
+    "end": "Jan 2019",
+    "summaries": {
+      "web": "Designed and developed comprehensive digital solutions ranging from advertising materials to web applications. Managed project creative direction from conception through final product delivery, ensuring that every detail of the user experience was tailored to exceed target audience expectations. The primary technology stack consisted of Laravel, Vue.js, and SASS."
+    },
+    "bullets": [
+      { "id": "fullstack", "text": "Developed full-stack applications and digital campaigns with Laravel, Vue.js, and Sass." },
+      { "id": "responsive", "text": "Design and develop responsive web solutions" },
+      { "id": "ux", "text": "Test, analyze, and improve the user experience" },
+      { "id": "ads", "text": "Create high converting advertising media" },
+      { "id": "maintain", "text": "Maintain and improve existing web apps" }
+    ]
+  },
+  {
+    "id": "muscle-strength",
+    "company": "Muscle & Strength",
+    "location": "Columbia, SC",
+    "title": "UI/UX Designer & Developer",
+    "start": "Apr 2014",
+    "end": "Sep 2017",
+    "summaries": {
+      "web": "Hired specifically by M&S to redesign their entire website making it completely responsive. This project included designing and coding everything from the checkout system to the way articles look. As the sole developer on this project I was directly responsible for site design and developing frontend code. This project was a gigantic undertaking consisting of 30+ page templates and thousands of pages of content and products that needed to be either re-designed or newly created to meet specific demands."
+    },
+    "bullets": [
+      { "id": "redesign", "text": "Designed and built Muscle & Strength's responsive e-commerce frontend across 30+ page templates." },
+      { "id": "templates", "text": "Designed responsive page templates and marketing pages with Adobe Illustrator or Sketch." },
+      { "id": "prototypes", "text": "Code responsive prototypes of designs in CodePen with static data." },
+      { "id": "cms-impl", "text": "Implement prototype code into Magento or Drupal CMS." },
+      { "id": "custom-css", "text": "Assist store, content, and marketing teams with any custom CSS design work to format forms or special landing pages." },
+      { "id": "ux-fixes", "text": "Design solutions to any UX issues reported by customer service." },
+      { "id": "graphics", "text": "Created custom graphics and icons using Photoshop and Illustrator." },
+      { "id": "sass-jquery", "text": "Created SASS styles and jQuery functions to customize the responsive user experience." }
+    ]
+  },
+  {
+    "id": "leelocal",
+    "company": "LeeLocal",
+    "location": "Davenport, IA",
+    "title": "Frontend/Backend Web Developer",
+    "start": "Jul 2012",
+    "end": "Apr 2014",
+    "summaries": {
+      "web": "I was hired on to help with front end website design and CSS development. I learned WordPress CMS development on the job and quickly became the \"custom guy\" and assisted other team members with any technical difficulties."
+    },
+    "bullets": [
+      { "id": "wp-templates", "text": "Custom WordPress templates and themes." },
+      { "id": "staging", "text": "Setup a system for staging and deploying custom sites via Beanstalk and Rackspace." },
+      { "id": "client-design", "text": "Worked directly with clients to design them a website that meets their needs." },
+      { "id": "client-training", "text": "Trained clients how to update and manage their custom website." }
+    ]
+  }
+]

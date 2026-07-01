@@ -18,18 +18,6 @@
 {#if data.isPdfMode}
   <!-- PDF Version -->
   <div class="min-h-screen bg-white text-gray-900 p-8 max-w-4xl mx-auto">
-    <!-- Date and Letter Details Header -->
-    <header class="mb-8 text-right">
-      <div class="text-sm text-gray-600">
-        <div class="mb-1">{data.letter.date}</div>
-        {#if data.letter.company}
-          <div class="font-medium text-gray-900">{data.letter.company}</div>
-        {/if}
-        {#if data.letter.jobTitle}
-          <div class="text-gray-700">{data.letter.jobTitle}</div>
-        {/if}
-      </div>
-    </header>
 
     <!-- Letter Content -->
     <main class="prose text-sm prose-gray max-w-none
