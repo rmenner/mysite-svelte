@@ -77,11 +77,11 @@
     "start": "Apr 2014",
     "end": "Sep 2017",
     "summaries": {
-      "web": "Hired specifically by M&S to redesign their entire website making it completely responsive. This project included designing and coding everything from the checkout system to the way articles look. As the sole developer on this project I was directly responsible for site design and developing frontend code. This project was a gigantic undertaking consisting of 30+ page templates and thousands of pages of content and products that needed to be either re-designed or newly created to meet specific demands."
+      "web": "Converted Muscle & Strength's legacy non-responsive e-commerce site to a fully responsive build as the sole frontend developer on a two-person team, owning the UI design in Adobe Illustrator and Sketch as well as the frontend implementation. The work spanned both the Magento store side and the Drupal content side, from the checkout system to article layouts, across 30+ page templates and thousands of pages of content and products that had to be redesigned or newly created."
     },
     "bullets": [
       { "id": "redesign", "text": "Designed and built Muscle & Strength's responsive e-commerce frontend across 30+ page templates." },
-      { "id": "templates", "text": "Designed responsive page templates and marketing pages with Adobe Illustrator or Sketch." },
+      { "id": "templates", "text": "Designed responsive page templates and marketing pages with Adobe Illustrator and Sketch." },
       { "id": "prototypes", "text": "Code responsive prototypes of designs in CodePen with static data." },
       { "id": "cms-impl", "text": "Implement prototype code into Magento or Drupal CMS." },
       { "id": "custom-css", "text": "Assist store, content, and marketing teams with any custom CSS design work to format forms or special landing pages." },
