@@ -5,6 +5,7 @@
   "summary": "Frontend engineer with 10+ years building web and product interfaces, now focused on accessible, reusable component systems and the experience of building with them.",
   "print": {
     "experience": [
+      { "ref": "lfl", "summary": "default" },
       { "ref": "alaska", "summary": "default", "bullets": ["auro-cli", "cem", "oidc"] },
       { "ref": "etrade", "summary": "default", "bullets": ["components", "playground", "vite-docs", "release-cycle", "doc-deploy", "integration"] },
       { "ref": "trevetts", "summary": "default", "bullets": ["prototype", "forge", "frontend"] },
@@ -15,6 +16,7 @@
   },
   "fancy": {
     "experience": [
+      { "ref": "lfl", "summary": "default" },
       { "ref": "alaska", "bullets": ["auro-cli", "cem", "oidc"] },
       { "ref": "etrade", "bullets": ["components", "playground", "vite-docs", "release-cycle"] },
       { "ref": "trevetts", "bullets": ["prototype", "forge", "frontend"] },

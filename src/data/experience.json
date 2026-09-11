@@ -1,19 +1,31 @@
 [
   {
+    "id": "lfl",
+    "company": "Left Field Labs",
+    "location": "Remote",
+    "title": "Senior Frontend Software Engineer",
+    "start": "Aug 2026",
+    "end": "Current",
+    "summaries": {
+      "default": "Embedded within Google to develop and maintain internal products."
+    },
+    "bullets": []
+  },
+  {
     "id": "alaska",
     "company": "Alaska Airlines",
     "location": "Remote",
     "title": "Senior Software Engineer - Contract",
     "start": "Oct 2024",
-    "end": "Current",
+    "end": "Aug 2026",
     "summaries": {
       "default": "Worked on Auro, Alaska Airlines' Lit-based component library used across the company's digital products. Both component work across the library and the platform that ships it underneath."
     },
     "bullets": [
       { "id": "auro-cli", "text": "Architected and built most of auro-cli, the standard TypeScript and Node.js build and release tooling for Auro, Alaska Airlines' Lit-based design system, adopted across all 30+ of its component packages and delivered as 12 reusable commands." },
       { "id": "oidc", "text": "Migrated dozens of Auro packages to OIDC trusted publishing, standardizing CI and automating semantic-commit analysis, release notes, and PR preview publishing." },
-      { "id": "cem", "text": "Established each component's Custom Element Manifest as the source of truth for generated API documentation and React and Svelte wrapper metadata." },
-      { "id": "form-adoption", "text": "Hardened Auro's form-control components, resolving combobox lifecycle and cross-browser dialog bugs in the form library now used across 50+ internal Alaska applications." }
+      { "id": "cem", "text": "Established each component's Custom Element Manifest as the source of truth for generated API documentation." },
+      { "id": "form-adoption", "text": "Hardened Auro's form-control components, resolving combobox lifecycle bugs and cross-browser dropdown rendering issues in the form library now used across 50+ internal Alaska applications." }
     ]
   },
   {
@@ -28,7 +40,7 @@
     },
     "bullets": [
       { "id": "components", "text": "Led development of data-dense UI components for Campfire Enterprise, Morgan Stanley's design system, delivered as Web Components for React and Angular consumers." },
-      { "id": "release-cycle", "text": "Reduced component release cycle time by more than 60%, from a full day to under 3 hours, by automating npm publishing with semantic-release and GitHub Actions." },
+      { "id": "release-cycle", "text": "Reduced component release cycle time by more than 60%, from a full day to under 3 hours, by automating npm publishing with semantic-release and custom release scripting." },
       { "id": "vite-docs", "text": "Cut documentation site compile time by 75%, from 20 minutes to 5 minutes, by migrating the React documentation site from Webpack to Vite." },
       { "id": "playground", "text": "Shipped a React playground for designers and product managers to evaluate live Campfire components without a local development environment." },
       { "id": "doc-deploy", "text": "Automated documentation-site deployments every two weeks and created PR preview environments for review before release." },

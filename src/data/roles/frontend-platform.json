@@ -5,6 +5,7 @@
   "summary": "Frontend engineer with 10+ years building web and product applications, now focused on design systems and the developer platform around them: release automation, build and CI/CD tooling, framework integrations, and token pipelines.",
   "print": {
     "experience": [
+      { "ref": "lfl", "summary": "default" },
       { "ref": "alaska", "summary": "default", "bullets": ["auro-cli", "oidc", "cem"] },
       { "ref": "etrade", "summary": "default", "bullets": ["release-cycle", "vite-docs", "doc-deploy", "playground", "integration", "components"] },
       { "ref": "trevetts", "summary": "default", "bullets": ["forge", "frontend", "prototype"] },
@@ -15,6 +16,7 @@
   },
   "fancy": {
     "experience": [
+      { "ref": "lfl", "summary": "default" },
       { "ref": "alaska", "bullets": ["auro-cli", "oidc", "cem"] },
       { "ref": "etrade", "bullets": ["release-cycle", "vite-docs", "playground", "components"] },
       { "ref": "trevetts", "bullets": ["forge", "frontend", "prototype"] },

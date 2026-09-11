@@ -5,6 +5,7 @@
   "summary": "Frontend engineer with 10+ years building user interfaces, now focused on complex, accessible UI components for enterprise applications.",
   "print": {
     "experience": [
+      { "ref": "lfl", "summary": "default" },
       { "ref": "alaska", "summary": "default", "bullets": ["form-adoption", "cem", "auro-cli", "oidc"] },
       { "ref": "etrade", "summary": "default", "bullets": ["components", "playground", "vite-docs", "release-cycle", "doc-deploy", "integration"] },
       { "ref": "trevetts", "summary": "default", "bullets": ["frontend", "prototype", "forge"] },
@@ -15,6 +16,7 @@
   },
   "fancy": {
     "experience": [
+      { "ref": "lfl", "summary": "default" },
       { "ref": "alaska", "bullets": ["cem", "auro-cli", "oidc"] },
       { "ref": "etrade", "bullets": ["components", "playground", "vite-docs", "release-cycle"] },
       { "ref": "trevetts", "bullets": ["frontend", "prototype", "forge"] },

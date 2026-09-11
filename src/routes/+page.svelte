@@ -29,7 +29,7 @@ import Page from '../components/page.svelte'
     <p>I live in famously hot Columbia, South Carolina, with my wife and two dogs. Off the clock, I'm still building things: home automation systems, home lab infrastructure, and FPV drones I fly myself.</p>
     <p>The work I'm proudest of is the quiet kind: an interface that gets out of your way, a component someone finds without asking, or a release that doesn't feel like an event.</p>
     <p>Mentorship has been part of every team I've worked with. I work to be the engineer teammates bring their hard questions to.</p>
-    <p>If you're scaling a design system, fixing one that isn't working, or hiring a frontend engineer who can stay with hard problems, reach out.</p>
+    <p>If you want to talk design systems, reach out.</p>
 
     <div class="flex items-center justify-end pr-8 pt-12">
       <div class="mr-3 text-right leading-snug">
