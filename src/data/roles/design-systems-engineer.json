@@ -26,7 +26,7 @@
     ]
   },
   "web": {
-    "summary": "Currently a Senior Frontend Software Engineer at Left Field Labs. Before that, Alaska Airlines' Auro design system and Morgan Stanley's Campfire design system. The work I'm proudest of is the quiet kind: an interface that gets out of your way, a component someone finds without asking, or a release that doesn't feel like an event. The best design systems disappear. My current work sits across these areas: component libraries, accessibility, documentation, and the release tooling around them.",
+    "summary": "Currently a Senior Frontend Software Engineer at Left Field Labs. Before that, Alaska Airlines' Auro design system and Morgan Stanley's Campfire design system. The work I'm proudest of is the quiet kind: an interface that gets out of your way, a component someone finds without asking, or a release that doesn't feel like an event. The best design systems disappear. My work spans component libraries, accessibility, documentation, and the release tooling around them.",
     "experience": [
       { "ref": "lfl", "summary": "default" },
       { "ref": "alaska", "summary": "default", "bullets": ["auro-cli", "oidc", "cem"] },
